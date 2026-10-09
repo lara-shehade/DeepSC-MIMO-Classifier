@@ -1,0 +1,85 @@
+{
+  "architecture": "conv_transformer",
+  "stage": "R2",
+  "held_out_physical_seed": 3102,
+  "train_samples": 35840,
+  "test_samples": 8960,
+  "balanced_accuracy": 0.6129464285714287,
+  "macro_f1": 0.6018099605714727,
+  "per_class_recall": {
+    "normal": 0.215625,
+    "low_snr": 0.84375,
+    "imperfect_csi": 0.609375,
+    "spatial_correlation": 0.76640625,
+    "literal": 0.2375,
+    "mismatch": 1.0,
+    "ood": 0.61796875
+  },
+  "confusion_matrix": [
+    [
+      276,
+      90,
+      49,
+      595,
+      199,
+      0,
+      71
+    ],
+    [
+      22,
+      1080,
+      13,
+      150,
+      12,
+      0,
+      3
+    ],
+    [
+      83,
+      121,
+      780,
+      165,
+      58,
+      0,
+      73
+    ],
+    [
+      79,
+      79,
+      12,
+      981,
+      79,
+      0,
+      50
+    ],
+    [
+      184,
+      53,
+      67,
+      542,
+      304,
+      0,
+      130
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1280,
+      0
+    ],
+    [
+      19,
+      17,
+      84,
+      273,
+      96,
+      0,
+      791
+    ]
+  ],
+  "coarse_balanced_accuracy": 0.5911458333333334,
+  "coarse_macro_f1": 0.5936047659096891
+}

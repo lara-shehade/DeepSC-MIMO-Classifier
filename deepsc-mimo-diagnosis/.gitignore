@@ -1,0 +1,25 @@
+# data, checkpoints and run outputs (too large / not redistributed)
+data/
+runs/
+traces/
+checkpoints/
+shared_vocab.json
+*.pkl
+*.pt
+*.pth
+*.joblib
+*.npz
+*.tgz
+*.zip
+# python
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+*.egg-info/
+.venv/
+venv/
+# os / editors
+.DS_Store
+.vscode/
+.idea/

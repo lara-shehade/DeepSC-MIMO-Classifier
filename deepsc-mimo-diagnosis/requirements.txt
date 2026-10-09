@@ -1,0 +1,8 @@
+torch>=2.0
+numpy>=1.23
+nltk>=3.8
+w3lib>=2.1
+tqdm>=4.65
+scikit-learn>=1.2
+joblib>=1.2
+pytest>=7.0  # tests only

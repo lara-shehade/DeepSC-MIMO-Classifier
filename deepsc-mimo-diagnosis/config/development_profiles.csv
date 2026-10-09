@@ -1,0 +1,13 @@
+profile,severity
+normal,
+low_snr,
+high_snr_control,
+imperfect_csi,0.99
+imperfect_csi,0.95
+imperfect_csi,0.90
+spatial_correlation,0.3
+spatial_correlation,0.6
+spatial_correlation,0.9
+literal,0.20
+mismatch,
+ood_hansard,

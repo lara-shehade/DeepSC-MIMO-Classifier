@@ -1,0 +1,14 @@
+architecture,stage
+cnn,R0
+cnn,R1
+cnn,R2
+cnn,R3
+tcn,R0
+tcn,R1
+tcn,R2
+tcn,R3
+conv_transformer,R0
+conv_transformer,R1
+conv_transformer,R2
+conv_transformer,R3
+fusion,fusion

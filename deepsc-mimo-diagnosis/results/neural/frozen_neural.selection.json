@@ -1,0 +1,102 @@
+{
+  "aggregate": [
+    {
+      "architecture": "tcn",
+      "stage": "R3",
+      "macro_f1_mean": 0.5820806026471688,
+      "balanced_accuracy_mean": 0.5917857142857144,
+      "folds": 5
+    },
+    {
+      "architecture": "tcn",
+      "stage": "R2",
+      "macro_f1_mean": 0.5962732719308563,
+      "balanced_accuracy_mean": 0.6078348214285715,
+      "folds": 5
+    },
+    {
+      "architecture": "cnn",
+      "stage": "R1",
+      "macro_f1_mean": 0.4118820841825589,
+      "balanced_accuracy_mean": 0.43104910714285716,
+      "folds": 5
+    },
+    {
+      "architecture": "tcn",
+      "stage": "R1",
+      "macro_f1_mean": 0.41439998713373605,
+      "balanced_accuracy_mean": 0.43808035714285715,
+      "folds": 5
+    },
+    {
+      "architecture": "conv_transformer",
+      "stage": "R3",
+      "macro_f1_mean": 0.6019855337742197,
+      "balanced_accuracy_mean": 0.6099330357142857,
+      "folds": 5
+    },
+    {
+      "architecture": "conv_transformer",
+      "stage": "R0",
+      "macro_f1_mean": 0.33187981207367584,
+      "balanced_accuracy_mean": 0.3765625,
+      "folds": 5
+    },
+    {
+      "architecture": "tcn",
+      "stage": "R0",
+      "macro_f1_mean": 0.3431182992175625,
+      "balanced_accuracy_mean": 0.3869642857142857,
+      "folds": 5
+    },
+    {
+      "architecture": "cnn",
+      "stage": "R3",
+      "macro_f1_mean": 0.5801612684090331,
+      "balanced_accuracy_mean": 0.593950892857143,
+      "folds": 5
+    },
+    {
+      "architecture": "conv_transformer",
+      "stage": "R1",
+      "macro_f1_mean": 0.4355505884956701,
+      "balanced_accuracy_mean": 0.4522098214285714,
+      "folds": 5
+    },
+    {
+      "architecture": "cnn",
+      "stage": "R2",
+      "macro_f1_mean": 0.5890558588902397,
+      "balanced_accuracy_mean": 0.6027455357142857,
+      "folds": 5
+    },
+    {
+      "architecture": "conv_transformer",
+      "stage": "R2",
+      "macro_f1_mean": 0.6167211715513561,
+      "balanced_accuracy_mean": 0.6216071428571428,
+      "folds": 5
+    },
+    {
+      "architecture": "cnn",
+      "stage": "R0",
+      "macro_f1_mean": 0.3076809840892943,
+      "balanced_accuracy_mean": 0.35848214285714286,
+      "folds": 5
+    },
+    {
+      "architecture": "fusion",
+      "stage": "fusion",
+      "macro_f1_mean": 0.6956061632232888,
+      "balanced_accuracy_mean": 0.7032142857142857,
+      "folds": 5
+    }
+  ],
+  "best": {
+    "architecture": "fusion",
+    "stage": "fusion",
+    "macro_f1_mean": 0.6956061632232888,
+    "balanced_accuracy_mean": 0.7032142857142857,
+    "folds": 5
+  }
+}

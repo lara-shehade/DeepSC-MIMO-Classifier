@@ -1,0 +1,7791 @@
+{
+  "aggregate": [
+    {
+      "balanced_accuracy_mean": 0.38696428571428576,
+      "balanced_accuracy_std": 0.016271196132460402,
+      "folds": 5,
+      "macro_f1_mean": 0.3431182992175625,
+      "macro_f1_std": 0.02205653375688088,
+      "parameter_count": 51143,
+      "per_class_recall_mean": {
+        "imperfect_csi": 0.07828125,
+        "literal": 0.2053125,
+        "low_snr": 0.9803124999999999,
+        "mismatch": 0.10515624999999999,
+        "normal": 0.06312500000000001,
+        "ood": 0.52953125,
+        "spatial_correlation": 0.7470312499999999
+      },
+      "stages": [
+        "R0"
+      ],
+      "subset": "R0"
+    },
+    {
+      "balanced_accuracy_mean": 0.43808035714285715,
+      "balanced_accuracy_std": 0.03351666746808898,
+      "folds": 5,
+      "macro_f1_mean": 0.41439998713373594,
+      "macro_f1_std": 0.03357976973543134,
+      "parameter_count": 51911,
+      "per_class_recall_mean": {
+        "imperfect_csi": 0.5590624999999999,
+        "literal": 0.30515625,
+        "low_snr": 0.7350000000000001,
+        "mismatch": 0.23140624999999998,
+        "normal": 0.09828125,
+        "ood": 0.666875,
+        "spatial_correlation": 0.47078125000000004
+      },
+      "stages": [
+        "R1"
+      ],
+      "subset": "R1"
+    },
+    {
+      "balanced_accuracy_mean": 0.6078348214285714,
+      "balanced_accuracy_std": 0.03217736707701435,
+      "folds": 5,
+      "macro_f1_mean": 0.5962732719308563,
+      "macro_f1_std": 0.033340283761705655,
+      "parameter_count": 59079,
+      "per_class_recall_mean": {
+        "imperfect_csi": 0.6740625,
+        "literal": 0.37703125000000004,
+        "low_snr": 0.78671875,
+        "mismatch": 1.0,
+        "normal": 0.29859375,
+        "ood": 0.661875,
+        "spatial_correlation": 0.4565625000000001
+      },
+      "stages": [
+        "R2"
+      ],
+      "subset": "R2"
+    },
+    {
+      "balanced_accuracy_mean": 0.5917857142857142,
+      "balanced_accuracy_std": 0.019972627553806317,
+      "folds": 5,
+      "macro_f1_mean": 0.5820806026471688,
+      "macro_f1_std": 0.023212945300294167,
+      "parameter_count": 59079,
+      "per_class_recall_mean": {
+        "imperfect_csi": 0.4953125,
+        "literal": 0.55390625,
+        "low_snr": 0.6753125,
+        "mismatch": 0.9998437499999999,
+        "normal": 0.32859375,
+        "ood": 0.8139062499999999,
+        "spatial_correlation": 0.275625
+      },
+      "stages": [
+        "R3"
+      ],
+      "subset": "R3"
+    },
+    {
+      "balanced_accuracy_mean": 0.49816964285714294,
+      "balanced_accuracy_std": 0.032686472167718666,
+      "folds": 5,
+      "macro_f1_mean": 0.46336770754910034,
+      "macro_f1_std": 0.04459128797528261,
+      "parameter_count": 103047,
+      "per_class_recall_mean": {
+        "imperfect_csi": 0.5596875000000001,
+        "literal": 0.28625,
+        "low_snr": 0.9806250000000001,
+        "mismatch": 0.10187500000000001,
+        "normal": 0.19109375,
+        "ood": 0.6634374999999999,
+        "spatial_correlation": 0.7042187500000001
+      },
+      "stages": [
+        "R0",
+        "R1"
+      ],
+      "subset": "R0_R1"
+    },
+    {
+      "balanced_accuracy_mean": 0.6555580357142857,
+      "balanced_accuracy_std": 0.0210454793021996,
+      "folds": 5,
+      "macro_f1_mean": 0.6386304434282479,
+      "macro_f1_std": 0.027349383457158098,
+      "parameter_count": 110215,
+      "per_class_recall_mean": {
+        "imperfect_csi": 0.6015625,
+        "literal": 0.28046875,
+        "low_snr": 0.97890625,
+        "mismatch": 0.9996875,
+        "normal": 0.31734375,
+        "ood": 0.69234375,
+        "spatial_correlation": 0.7185937499999999
+      },
+      "stages": [
+        "R0",
+        "R2"
+      ],
+      "subset": "R0_R2"
+    },
+    {
+      "balanced_accuracy_mean": 0.6782812499999998,
+      "balanced_accuracy_std": 0.021436213992411163,
+      "folds": 5,
+      "macro_f1_mean": 0.6691292176450654,
+      "macro_f1_std": 0.02841094050031613,
+      "parameter_count": 110215,
+      "per_class_recall_mean": {
+        "imperfect_csi": 0.5037499999999999,
+        "literal": 0.46375,
+        "low_snr": 0.97953125,
+        "mismatch": 0.9956250000000001,
+        "normal": 0.34796875,
+        "ood": 0.7534375000000001,
+        "spatial_correlation": 0.7039062500000001
+      },
+      "stages": [
+        "R0",
+        "R3"
+      ],
+      "subset": "R0_R3"
+    },
+    {
+      "balanced_accuracy_mean": 0.6056026785714286,
+      "balanced_accuracy_std": 0.031722688600093384,
+      "folds": 5,
+      "macro_f1_mean": 0.591941833591207,
+      "macro_f1_std": 0.03033348195104707,
+      "parameter_count": 110983,
+      "per_class_recall_mean": {
+        "imperfect_csi": 0.6171875,
+        "literal": 0.37390625,
+        "low_snr": 0.7740625,
+        "mismatch": 1.0,
+        "normal": 0.28515625000000006,
+        "ood": 0.760625,
+        "spatial_correlation": 0.42828125000000006
+      },
+      "stages": [
+        "R1",
+        "R2"
+      ],
+      "subset": "R1_R2"
+    },
+    {
+      "balanced_accuracy_mean": 0.6352901785714286,
+      "balanced_accuracy_std": 0.0236072720239064,
+      "folds": 5,
+      "macro_f1_mean": 0.6288238789473736,
+      "macro_f1_std": 0.02255424153291338,
+      "parameter_count": 110983,
+      "per_class_recall_mean": {
+        "imperfect_csi": 0.5875,
+        "literal": 0.4859375,
+        "low_snr": 0.7582812499999999,
+        "mismatch": 0.9989062499999999,
+        "normal": 0.37765625,
+        "ood": 0.7989062500000002,
+        "spatial_correlation": 0.43984375
+      },
+      "stages": [
+        "R1",
+        "R3"
+      ],
+      "subset": "R1_R3"
+    },
+    {
+      "balanced_accuracy_mean": 0.6527232142857142,
+      "balanced_accuracy_std": 0.03118372276572083,
+      "folds": 5,
+      "macro_f1_mean": 0.6458468130100339,
+      "macro_f1_std": 0.033245562341752626,
+      "parameter_count": 118151,
+      "per_class_recall_mean": {
+        "imperfect_csi": 0.6714062500000001,
+        "literal": 0.5246875,
+        "low_snr": 0.7428125000000001,
+        "mismatch": 1.0,
+        "normal": 0.38828125,
+        "ood": 0.8182812500000001,
+        "spatial_correlation": 0.42359374999999994
+      },
+      "stages": [
+        "R2",
+        "R3"
+      ],
+      "subset": "R2_R3"
+    },
+    {
+      "balanced_accuracy_mean": 0.6538169642857143,
+      "balanced_accuracy_std": 0.023849404495423995,
+      "folds": 5,
+      "macro_f1_mean": 0.6357136647103818,
+      "macro_f1_std": 0.03421405405878453,
+      "parameter_count": 162119,
+      "per_class_recall_mean": {
+        "imperfect_csi": 0.64015625,
+        "literal": 0.31999999999999995,
+        "low_snr": 0.9784375000000001,
+        "mismatch": 0.9995312500000001,
+        "normal": 0.2628125,
+        "ood": 0.66296875,
+        "spatial_correlation": 0.7128125000000001
+      },
+      "stages": [
+        "R0",
+        "R1",
+        "R2"
+      ],
+      "subset": "R0_R1_R2"
+    },
+    {
+      "balanced_accuracy_mean": 0.6932812499999998,
+      "balanced_accuracy_std": 0.027122418732395685,
+      "folds": 5,
+      "macro_f1_mean": 0.6841495528901126,
+      "macro_f1_std": 0.03560814620476027,
+      "parameter_count": 162119,
+      "per_class_recall_mean": {
+        "imperfect_csi": 0.60765625,
+        "literal": 0.46046875,
+        "low_snr": 0.9814062499999998,
+        "mismatch": 0.9915625,
+        "normal": 0.3353125,
+        "ood": 0.77734375,
+        "spatial_correlation": 0.6992187500000001
+      },
+      "stages": [
+        "R0",
+        "R1",
+        "R3"
+      ],
+      "subset": "R0_R1_R3"
+    },
+    {
+      "balanced_accuracy_mean": 0.7014732142857143,
+      "balanced_accuracy_std": 0.027181369162717847,
+      "folds": 5,
+      "macro_f1_mean": 0.694953468646732,
+      "macro_f1_std": 0.029562411214372402,
+      "parameter_count": 169287,
+      "per_class_recall_mean": {
+        "imperfect_csi": 0.604375,
+        "literal": 0.4546875,
+        "low_snr": 0.97953125,
+        "mismatch": 1.0,
+        "normal": 0.35562499999999997,
+        "ood": 0.78265625,
+        "spatial_correlation": 0.7334375000000001
+      },
+      "stages": [
+        "R0",
+        "R2",
+        "R3"
+      ],
+      "subset": "R0_R2_R3"
+    },
+    {
+      "balanced_accuracy_mean": 0.6481026785714287,
+      "balanced_accuracy_std": 0.03819777902529046,
+      "folds": 5,
+      "macro_f1_mean": 0.6413086848441656,
+      "macro_f1_std": 0.04164687548129374,
+      "parameter_count": 170055,
+      "per_class_recall_mean": {
+        "imperfect_csi": 0.6646875,
+        "literal": 0.495,
+        "low_snr": 0.7346875,
+        "mismatch": 0.9998437499999999,
+        "normal": 0.385625,
+        "ood": 0.82421875,
+        "spatial_correlation": 0.4326562500000001
+      },
+      "stages": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "subset": "R1_R2_R3"
+    },
+    {
+      "balanced_accuracy_mean": 0.7041294642857143,
+      "balanced_accuracy_std": 0.022202529312586806,
+      "folds": 5,
+      "macro_f1_mean": 0.6956827463940277,
+      "macro_f1_std": 0.027326036389649463,
+      "parameter_count": 221191,
+      "per_class_recall_mean": {
+        "imperfect_csi": 0.65921875,
+        "literal": 0.46609375000000003,
+        "low_snr": 0.9809374999999999,
+        "mismatch": 0.9970312499999998,
+        "normal": 0.3440625,
+        "ood": 0.7656249999999999,
+        "spatial_correlation": 0.7159374999999999
+      },
+      "stages": [
+        "R0",
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "subset": "R0_R1_R2_R3"
+    }
+  ],
+  "analysis_role": "supplementary exploratory development-set ablation",
+  "best_exploratory": {
+    "balanced_accuracy_mean": 0.7041294642857143,
+    "balanced_accuracy_std": 0.022202529312586806,
+    "folds": 5,
+    "macro_f1_mean": 0.6956827463940277,
+    "macro_f1_std": 0.027326036389649463,
+    "parameter_count": 221191,
+    "per_class_recall_mean": {
+      "imperfect_csi": 0.65921875,
+      "literal": 0.46609375000000003,
+      "low_snr": 0.9809374999999999,
+      "mismatch": 0.9970312499999998,
+      "normal": 0.3440625,
+      "ood": 0.7656249999999999,
+      "spatial_correlation": 0.7159374999999999
+    },
+    "stages": [
+      "R0",
+      "R1",
+      "R2",
+      "R3"
+    ],
+    "subset": "R0_R1_R2_R3"
+  },
+  "claim_limit": "The best subset is not an independently validated seven-class estimate.",
+  "folds": [
+    {
+      "architecture": "tcn",
+      "balanced_accuracy": 0.39531250000000007,
+      "coarse_balanced_accuracy": 0.49331597222222223,
+      "coarse_macro_f1": 0.4940133123409711,
+      "confusion_matrix": [
+        [
+          276,
+          4,
+          89,
+          208,
+          84,
+          248,
+          371
+        ],
+        [
+          2,
+          1228,
+          1,
+          38,
+          0,
+          2,
+          9
+        ],
+        [
+          266,
+          4,
+          80,
+          208,
+          69,
+          262,
+          391
+        ],
+        [
+          94,
+          1,
+          34,
+          941,
+          45,
+          68,
+          97
+        ],
+        [
+          266,
+          2,
+          86,
+          195,
+          99,
+          229,
+          403
+        ],
+        [
+          275,
+          4,
+          89,
+          208,
+          85,
+          248,
+          371
+        ],
+        [
+          196,
+          3,
+          45,
+          151,
+          64,
+          151,
+          670
+        ]
+      ],
+      "held_out_physical_seed": 3101,
+      "macro_f1": 0.36343739300052536,
+      "parameter_count": 51143,
+      "per_class_recall": {
+        "imperfect_csi": 0.0625,
+        "literal": 0.07734375,
+        "low_snr": 0.959375,
+        "mismatch": 0.19375,
+        "normal": 0.215625,
+        "ood": 0.5234375,
+        "spatial_correlation": 0.73515625
+      },
+      "source": "existing_neural_fold",
+      "stage": "R0",
+      "stages": [
+        "R0"
+      ],
+      "subset": "R0",
+      "test_samples": 8960,
+      "train_samples": 35840
+    },
+    {
+      "architecture": "tcn",
+      "balanced_accuracy": 0.36305803571428574,
+      "coarse_balanced_accuracy": 0.42265624999999996,
+      "coarse_macro_f1": 0.3884953735078854,
+      "confusion_matrix": [
+        [
+          41,
+          1,
+          46,
+          785,
+          202,
+          130,
+          75
+        ],
+        [
+          0,
+          1268,
+          0,
+          10,
+          1,
+          0,
+          1
+        ],
+        [
+          44,
+          1,
+          53,
+          763,
+          205,
+          136,
+          78
+        ],
+        [
+          7,
+          0,
+          9,
+          1205,
+          23,
+          23,
+          13
+        ],
+        [
+          31,
+          0,
+          28,
+          758,
+          247,
+          112,
+          104
+        ],
+        [
+          41,
+          1,
+          46,
+          785,
+          201,
+          131,
+          75
+        ],
+        [
+          28,
+          2,
+          24,
+          659,
+          215,
+          44,
+          308
+        ]
+      ],
+      "held_out_physical_seed": 3102,
+      "macro_f1": 0.31057873133018926,
+      "parameter_count": 51143,
+      "per_class_recall": {
+        "imperfect_csi": 0.04140625,
+        "literal": 0.19296875,
+        "low_snr": 0.990625,
+        "mismatch": 0.10234375,
+        "normal": 0.03203125,
+        "ood": 0.240625,
+        "spatial_correlation": 0.94140625
+      },
+      "source": "existing_neural_fold",
+      "stage": "R0",
+      "stages": [
+        "R0"
+      ],
+      "subset": "R0",
+      "test_samples": 8960,
+      "train_samples": 35840
+    },
+    {
+      "architecture": "tcn",
+      "balanced_accuracy": 0.37723214285714285,
+      "coarse_balanced_accuracy": 0.43845486111111115,
+      "coarse_macro_f1": 0.4166683625089294,
+      "confusion_matrix": [
+        [
+          57,
+          15,
+          203,
+          463,
+          307,
+          40,
+          195
+        ],
+        [
+          2,
+          1277,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          42,
+          13,
+          202,
+          457,
+          313,
+          49,
+          204
+        ],
+        [
+          20,
+          5,
+          95,
+          964,
+          99,
+          30,
+          67
+        ],
+        [
+          65,
+          10,
+          189,
+          468,
+          308,
+          24,
+          216
+        ],
+        [
+          56,
+          15,
+          204,
+          463,
+          307,
+          40,
+          195
+        ],
+        [
+          28,
+          11,
+          93,
+          371,
+          222,
+          23,
+          532
+        ]
+      ],
+      "held_out_physical_seed": 3103,
+      "macro_f1": 0.33181519795751724,
+      "parameter_count": 51143,
+      "per_class_recall": {
+        "imperfect_csi": 0.1578125,
+        "literal": 0.240625,
+        "low_snr": 0.99765625,
+        "mismatch": 0.03125,
+        "normal": 0.04453125,
+        "ood": 0.415625,
+        "spatial_correlation": 0.753125
+      },
+      "source": "existing_neural_fold",
+      "stage": "R0",
+      "stages": [
+        "R0"
+      ],
+      "subset": "R0",
+      "test_samples": 8960,
+      "train_samples": 35840
+    },
+    {
+      "architecture": "tcn",
+      "balanced_accuracy": 0.3983258928571428,
+      "coarse_balanced_accuracy": 0.49835069444444446,
+      "coarse_macro_f1": 0.46988007689913697,
+      "confusion_matrix": [
+        [
+          29,
+          8,
+          106,
+          49,
+          171,
+          142,
+          775
+        ],
+        [
+          0,
+          1240,
+          1,
+          0,
+          0,
+          0,
+          39
+        ],
+        [
+          30,
+          8,
+          111,
+          44,
+          174,
+          135,
+          778
+        ],
+        [
+          14,
+          1,
+          27,
+          839,
+          91,
+          67,
+          241
+        ],
+        [
+          22,
+          6,
+          111,
+          46,
+          175,
+          117,
+          803
+        ],
+        [
+          29,
+          8,
+          106,
+          49,
+          170,
+          142,
+          776
+        ],
+        [
+          7,
+          4,
+          50,
+          19,
+          96,
+          71,
+          1033
+        ]
+      ],
+      "held_out_physical_seed": 3104,
+      "macro_f1": 0.36078915949866086,
+      "parameter_count": 51143,
+      "per_class_recall": {
+        "imperfect_csi": 0.08671875,
+        "literal": 0.13671875,
+        "low_snr": 0.96875,
+        "mismatch": 0.1109375,
+        "normal": 0.02265625,
+        "ood": 0.80703125,
+        "spatial_correlation": 0.65546875
+      },
+      "source": "existing_neural_fold",
+      "stage": "R0",
+      "stages": [
+        "R0"
+      ],
+      "subset": "R0",
+      "test_samples": 8960,
+      "train_samples": 35840
+    },
+    {
+      "architecture": "tcn",
+      "balanced_accuracy": 0.4008928571428571,
+      "coarse_balanced_accuracy": 0.49166666666666664,
+      "coarse_macro_f1": 0.4538658827305872,
+      "confusion_matrix": [
+        [
+          1,
+          5,
+          57,
+          138,
+          479,
+          112,
+          488
+        ],
+        [
+          0,
+          1261,
+          0,
+          1,
+          4,
+          0,
+          14
+        ],
+        [
+          0,
+          4,
+          55,
+          143,
+          471,
+          124,
+          483
+        ],
+        [
+          0,
+          1,
+          24,
+          832,
+          182,
+          53,
+          188
+        ],
+        [
+          2,
+          3,
+          48,
+          132,
+          485,
+          85,
+          525
+        ],
+        [
+          1,
+          5,
+          57,
+          138,
+          479,
+          112,
+          488
+        ],
+        [
+          0,
+          7,
+          24,
+          83,
+          284,
+          36,
+          846
+        ]
+      ],
+      "held_out_physical_seed": 3105,
+      "macro_f1": 0.3489710143009196,
+      "parameter_count": 51143,
+      "per_class_recall": {
+        "imperfect_csi": 0.04296875,
+        "literal": 0.37890625,
+        "low_snr": 0.98515625,
+        "mismatch": 0.0875,
+        "normal": 0.00078125,
+        "ood": 0.6609375,
+        "spatial_correlation": 0.65
+      },
+      "source": "existing_neural_fold",
+      "stage": "R0",
+      "stages": [
+        "R0"
+      ],
+      "subset": "R0",
+      "test_samples": 8960,
+      "train_samples": 35840
+    },
+    {
+      "architecture": "tcn",
+      "balanced_accuracy": 0.46975446428571427,
+      "coarse_balanced_accuracy": 0.5361111111111111,
+      "coarse_macro_f1": 0.5325198638040098,
+      "confusion_matrix": [
+        [
+          181,
+          59,
+          165,
+          99,
+          182,
+          430,
+          164
+        ],
+        [
+          28,
+          1000,
+          115,
+          73,
+          7,
+          39,
+          18
+        ],
+        [
+          28,
+          140,
+          814,
+          15,
+          52,
+          79,
+          152
+        ],
+        [
+          100,
+          136,
+          114,
+          509,
+          93,
+          211,
+          117
+        ],
+        [
+          142,
+          48,
+          162,
+          82,
+          276,
+          305,
+          265
+        ],
+        [
+          179,
+          59,
+          165,
+          99,
+          182,
+          432,
+          164
+        ],
+        [
+          11,
+          9,
+          145,
+          22,
+          59,
+          37,
+          997
+        ]
+      ],
+      "held_out_physical_seed": 3101,
+      "macro_f1": 0.44757807730004223,
+      "parameter_count": 51911,
+      "per_class_recall": {
+        "imperfect_csi": 0.6359375,
+        "literal": 0.215625,
+        "low_snr": 0.78125,
+        "mismatch": 0.3375,
+        "normal": 0.14140625,
+        "ood": 0.77890625,
+        "spatial_correlation": 0.39765625
+      },
+      "source": "existing_neural_fold",
+      "stage": "R1",
+      "stages": [
+        "R1"
+      ],
+      "subset": "R1",
+      "test_samples": 8960,
+      "train_samples": 35840
+    },
+    {
+      "architecture": "tcn",
+      "balanced_accuracy": 0.4107142857142857,
+      "coarse_balanced_accuracy": 0.4493055555555556,
+      "coarse_macro_f1": 0.4196025303459856,
+      "confusion_matrix": [
+        [
+          49,
+          156,
+          81,
+          595,
+          147,
+          174,
+          78
+        ],
+        [
+          5,
+          940,
+          11,
+          277,
+          17,
+          23,
+          7
+        ],
+        [
+          11,
+          79,
+          668,
+          267,
+          44,
+          69,
+          142
+        ],
+        [
+          19,
+          114,
+          44,
+          942,
+          56,
+          43,
+          62
+        ],
+        [
+          37,
+          123,
+          70,
+          569,
+          224,
+          135,
+          122
+        ],
+        [
+          49,
+          157,
+          81,
+          594,
+          147,
+          174,
+          78
+        ],
+        [
+          5,
+          30,
+          63,
+          375,
+          97,
+          27,
+          683
+        ]
+      ],
+      "held_out_physical_seed": 3102,
+      "macro_f1": 0.3781201914317637,
+      "parameter_count": 51911,
+      "per_class_recall": {
+        "imperfect_csi": 0.521875,
+        "literal": 0.175,
+        "low_snr": 0.734375,
+        "mismatch": 0.1359375,
+        "normal": 0.03828125,
+        "ood": 0.53359375,
+        "spatial_correlation": 0.7359375
+      },
+      "source": "existing_neural_fold",
+      "stage": "R1",
+      "stages": [
+        "R1"
+      ],
+      "subset": "R1",
+      "test_samples": 8960,
+      "train_samples": 35840
+    },
+    {
+      "architecture": "tcn",
+      "balanced_accuracy": 0.47745535714285714,
+      "coarse_balanced_accuracy": 0.5280381944444444,
+      "coarse_macro_f1": 0.5220268776764726,
+      "confusion_matrix": [
+        [
+          227,
+          82,
+          213,
+          243,
+          291,
+          152,
+          72
+        ],
+        [
+          6,
+          1045,
+          48,
+          156,
+          7,
+          15,
+          3
+        ],
+        [
+          32,
+          66,
+          937,
+          102,
+          54,
+          31,
+          58
+        ],
+        [
+          92,
+          76,
+          143,
+          747,
+          118,
+          69,
+          35
+        ],
+        [
+          156,
+          53,
+          228,
+          204,
+          402,
+          112,
+          125
+        ],
+        [
+          228,
+          82,
+          213,
+          243,
+          290,
+          152,
+          72
+        ],
+        [
+          14,
+          12,
+          177,
+          148,
+          147,
+          14,
+          768
+        ]
+      ],
+      "held_out_physical_seed": 3103,
+      "macro_f1": 0.4527071628914712,
+      "parameter_count": 51911,
+      "per_class_recall": {
+        "imperfect_csi": 0.73203125,
+        "literal": 0.3140625,
+        "low_snr": 0.81640625,
+        "mismatch": 0.11875,
+        "normal": 0.17734375,
+        "ood": 0.6,
+        "spatial_correlation": 0.58359375
+      },
+      "source": "existing_neural_fold",
+      "stage": "R1",
+      "stages": [
+        "R1"
+      ],
+      "subset": "R1",
+      "test_samples": 8960,
+      "train_samples": 35840
+    },
+    {
+      "architecture": "tcn",
+      "balanced_accuracy": 0.40535714285714286,
+      "coarse_balanced_accuracy": 0.4980902777777778,
+      "coarse_macro_f1": 0.4946771896926026,
+      "confusion_matrix": [
+        [
+          169,
+          136,
+          57,
+          64,
+          283,
+          402,
+          169
+        ],
+        [
+          90,
+          736,
+          73,
+          210,
+          20,
+          124,
+          27
+        ],
+        [
+          71,
+          134,
+          554,
+          15,
+          89,
+          160,
+          257
+        ],
+        [
+          107,
+          145,
+          52,
+          435,
+          149,
+          251,
+          141
+        ],
+        [
+          118,
+          125,
+          55,
+          59,
+          394,
+          263,
+          266
+        ],
+        [
+          168,
+          136,
+          58,
+          64,
+          283,
+          402,
+          169
+        ],
+        [
+          12,
+          90,
+          50,
+          28,
+          106,
+          52,
+          942
+        ]
+      ],
+      "held_out_physical_seed": 3104,
+      "macro_f1": 0.3950305860433139,
+      "parameter_count": 51911,
+      "per_class_recall": {
+        "imperfect_csi": 0.4328125,
+        "literal": 0.3078125,
+        "low_snr": 0.575,
+        "mismatch": 0.3140625,
+        "normal": 0.13203125,
+        "ood": 0.7359375,
+        "spatial_correlation": 0.33984375
+      },
+      "source": "existing_neural_fold",
+      "stage": "R1",
+      "stages": [
+        "R1"
+      ],
+      "subset": "R1",
+      "test_samples": 8960,
+      "train_samples": 35840
+    },
+    {
+      "architecture": "tcn",
+      "balanced_accuracy": 0.42712053571428577,
+      "coarse_balanced_accuracy": 0.5052951388888888,
+      "coarse_macro_f1": 0.4680990142942738,
+      "confusion_matrix": [
+        [
+          3,
+          158,
+          28,
+          98,
+          564,
+          321,
+          108
+        ],
+        [
+          1,
+          983,
+          17,
+          130,
+          88,
+          46,
+          15
+        ],
+        [
+          1,
+          139,
+          605,
+          77,
+          224,
+          74,
+          160
+        ],
+        [
+          1,
+          222,
+          38,
+          380,
+          364,
+          199,
+          76
+        ],
+        [
+          1,
+          133,
+          24,
+          77,
+          657,
+          210,
+          178
+        ],
+        [
+          3,
+          158,
+          28,
+          98,
+          564,
+          321,
+          108
+        ],
+        [
+          0,
+          55,
+          23,
+          19,
+          278,
+          27,
+          878
+        ]
+      ],
+      "held_out_physical_seed": 3105,
+      "macro_f1": 0.3985639180020889,
+      "parameter_count": 51911,
+      "per_class_recall": {
+        "imperfect_csi": 0.47265625,
+        "literal": 0.51328125,
+        "low_snr": 0.76796875,
+        "mismatch": 0.25078125,
+        "normal": 0.00234375,
+        "ood": 0.6859375,
+        "spatial_correlation": 0.296875
+      },
+      "source": "existing_neural_fold",
+      "stage": "R1",
+      "stages": [
+        "R1"
+      ],
+      "subset": "R1",
+      "test_samples": 8960,
+      "train_samples": 35840
+    },
+    {
+      "architecture": "tcn",
+      "balanced_accuracy": 0.6248883928571428,
+      "coarse_balanced_accuracy": 0.6467013888888888,
+      "coarse_macro_f1": 0.6451223353511811,
+      "confusion_matrix": [
+        [
+          513,
+          101,
+          328,
+          74,
+          148,
+          0,
+          116
+        ],
+        [
+          39,
+          1074,
+          107,
+          38,
+          12,
+          0,
+          10
+        ],
+        [
+          64,
+          44,
+          1070,
+          17,
+          22,
+          0,
+          63
+        ],
+        [
+          284,
+          158,
+          194,
+          489,
+          86,
+          0,
+          69
+        ],
+        [
+          406,
+          68,
+          318,
+          60,
+          252,
+          0,
+          176
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1280,
+          0
+        ],
+        [
+          51,
+          9,
+          192,
+          16,
+          91,
+          0,
+          921
+        ]
+      ],
+      "held_out_physical_seed": 3101,
+      "macro_f1": 0.6070163435955022,
+      "parameter_count": 59079,
+      "per_class_recall": {
+        "imperfect_csi": 0.8359375,
+        "literal": 0.196875,
+        "low_snr": 0.8390625,
+        "mismatch": 1.0,
+        "normal": 0.40078125,
+        "ood": 0.71953125,
+        "spatial_correlation": 0.38203125
+      },
+      "source": "existing_neural_fold",
+      "stage": "R2",
+      "stages": [
+        "R2"
+      ],
+      "subset": "R2",
+      "test_samples": 8960,
+      "train_samples": 35840
+    },
+    {
+      "architecture": "tcn",
+      "balanced_accuracy": 0.6064732142857142,
+      "coarse_balanced_accuracy": 0.5743923611111111,
+      "coarse_macro_f1": 0.5697479965866944,
+      "confusion_matrix": [
+        [
+          175,
+          113,
+          93,
+          530,
+          251,
+          0,
+          118
+        ],
+        [
+          18,
+          1010,
+          28,
+          195,
+          20,
+          0,
+          9
+        ],
+        [
+          34,
+          74,
+          856,
+          148,
+          74,
+          0,
+          94
+        ],
+        [
+          51,
+          88,
+          34,
+          935,
+          113,
+          0,
+          59
+        ],
+        [
+          85,
+          59,
+          96,
+          513,
+          328,
+          0,
+          199
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1280,
+          0
+        ],
+        [
+          9,
+          17,
+          77,
+          260,
+          67,
+          0,
+          850
+        ]
+      ],
+      "held_out_physical_seed": 3102,
+      "macro_f1": 0.587857226118758,
+      "parameter_count": 59079,
+      "per_class_recall": {
+        "imperfect_csi": 0.66875,
+        "literal": 0.25625,
+        "low_snr": 0.7890625,
+        "mismatch": 1.0,
+        "normal": 0.13671875,
+        "ood": 0.6640625,
+        "spatial_correlation": 0.73046875
+      },
+      "source": "existing_neural_fold",
+      "stage": "R2",
+      "stages": [
+        "R2"
+      ],
+      "subset": "R2",
+      "test_samples": 8960,
+      "train_samples": 35840
+    },
+    {
+      "architecture": "tcn",
+      "balanced_accuracy": 0.6526785714285713,
+      "coarse_balanced_accuracy": 0.6360243055555556,
+      "coarse_macro_f1": 0.6399983109240597,
+      "confusion_matrix": [
+        [
+          354,
+          103,
+          97,
+          213,
+          403,
+          0,
+          110
+        ],
+        [
+          10,
+          1072,
+          34,
+          146,
+          12,
+          0,
+          6
+        ],
+        [
+          53,
+          38,
+          939,
+          96,
+          100,
+          0,
+          54
+        ],
+        [
+          168,
+          103,
+          64,
+          704,
+          177,
+          0,
+          64
+        ],
+        [
+          228,
+          69,
+          101,
+          167,
+          545,
+          0,
+          170
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1280,
+          0
+        ],
+        [
+          25,
+          6,
+          41,
+          134,
+          120,
+          0,
+          954
+        ]
+      ],
+      "held_out_physical_seed": 3103,
+      "macro_f1": 0.6460296211097072,
+      "parameter_count": 59079,
+      "per_class_recall": {
+        "imperfect_csi": 0.73359375,
+        "literal": 0.42578125,
+        "low_snr": 0.8375,
+        "mismatch": 1.0,
+        "normal": 0.2765625,
+        "ood": 0.7453125,
+        "spatial_correlation": 0.55
+      },
+      "source": "existing_neural_fold",
+      "stage": "R2",
+      "stages": [
+        "R2"
+      ],
+      "subset": "R2",
+      "test_samples": 8960,
+      "train_samples": 35840
+    },
+    {
+      "architecture": "tcn",
+      "balanced_accuracy": 0.5792410714285714,
+      "coarse_balanced_accuracy": 0.6500868055555555,
+      "coarse_macro_f1": 0.6256056410083105,
+      "confusion_matrix": [
+        [
+          753,
+          137,
+          34,
+          55,
+          246,
+          0,
+          55
+        ],
+        [
+          196,
+          879,
+          33,
+          135,
+          27,
+          0,
+          10
+        ],
+        [
+          345,
+          115,
+          615,
+          6,
+          75,
+          7,
+          117
+        ],
+        [
+          433,
+          161,
+          34,
+          473,
+          145,
+          0,
+          34
+        ],
+        [
+          520,
+          126,
+          55,
+          39,
+          433,
+          0,
+          107
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1280,
+          0
+        ],
+        [
+          163,
+          91,
+          53,
+          14,
+          202,
+          0,
+          757
+        ]
+      ],
+      "held_out_physical_seed": 3104,
+      "macro_f1": 0.5848606891109815,
+      "parameter_count": 59079,
+      "per_class_recall": {
+        "imperfect_csi": 0.48046875,
+        "literal": 0.33828125,
+        "low_snr": 0.68671875,
+        "mismatch": 1.0,
+        "normal": 0.58828125,
+        "ood": 0.59140625,
+        "spatial_correlation": 0.36953125
+      },
+      "source": "existing_neural_fold",
+      "stage": "R2",
+      "stages": [
+        "R2"
+      ],
+      "subset": "R2",
+      "test_samples": 8960,
+      "train_samples": 35840
+    },
+    {
+      "architecture": "tcn",
+      "balanced_accuracy": 0.5758928571428571,
+      "coarse_balanced_accuracy": 0.5593750000000001,
+      "coarse_macro_f1": 0.5463112245739485,
+      "confusion_matrix": [
+        [
+          116,
+          117,
+          180,
+          53,
+          758,
+          0,
+          56
+        ],
+        [
+          17,
+          1000,
+          48,
+          96,
+          113,
+          0,
+          6
+        ],
+        [
+          32,
+          114,
+          834,
+          19,
+          230,
+          0,
+          51
+        ],
+        [
+          85,
+          189,
+          136,
+          321,
+          509,
+          0,
+          40
+        ],
+        [
+          39,
+          97,
+          153,
+          33,
+          855,
+          0,
+          103
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1280,
+          0
+        ],
+        [
+          4,
+          14,
+          153,
+          8,
+          347,
+          0,
+          754
+        ]
+      ],
+      "held_out_physical_seed": 3105,
+      "macro_f1": 0.5556024797193327,
+      "parameter_count": 59079,
+      "per_class_recall": {
+        "imperfect_csi": 0.6515625,
+        "literal": 0.66796875,
+        "low_snr": 0.78125,
+        "mismatch": 1.0,
+        "normal": 0.090625,
+        "ood": 0.5890625,
+        "spatial_correlation": 0.25078125
+      },
+      "source": "existing_neural_fold",
+      "stage": "R2",
+      "stages": [
+        "R2"
+      ],
+      "subset": "R2",
+      "test_samples": 8960,
+      "train_samples": 35840
+    },
+    {
+      "architecture": "tcn",
+      "balanced_accuracy": 0.5993303571428571,
+      "coarse_balanced_accuracy": 0.6603298611111111,
+      "coarse_macro_f1": 0.6532366108306458,
+      "confusion_matrix": [
+        [
+          585,
+          67,
+          118,
+          202,
+          204,
+          0,
+          104
+        ],
+        [
+          81,
+          844,
+          74,
+          226,
+          30,
+          0,
+          25
+        ],
+        [
+          239,
+          159,
+          585,
+          91,
+          90,
+          0,
+          116
+        ],
+        [
+          368,
+          192,
+          131,
+          388,
+          128,
+          0,
+          73
+        ],
+        [
+          311,
+          31,
+          108,
+          125,
+          574,
+          0,
+          131
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1280,
+          0
+        ],
+        [
+          28,
+          3,
+          53,
+          19,
+          63,
+          0,
+          1114
+        ]
+      ],
+      "held_out_physical_seed": 3101,
+      "macro_f1": 0.5941577585398571,
+      "parameter_count": 59079,
+      "per_class_recall": {
+        "imperfect_csi": 0.45703125,
+        "literal": 0.4484375,
+        "low_snr": 0.659375,
+        "mismatch": 1.0,
+        "normal": 0.45703125,
+        "ood": 0.8703125,
+        "spatial_correlation": 0.303125
+      },
+      "source": "existing_neural_fold",
+      "stage": "R3",
+      "stages": [
+        "R3"
+      ],
+      "subset": "R3",
+      "test_samples": 8960,
+      "train_samples": 35840
+    },
+    {
+      "architecture": "tcn",
+      "balanced_accuracy": 0.6103794642857144,
+      "coarse_balanced_accuracy": 0.6236979166666666,
+      "coarse_macro_f1": 0.6279184371124439,
+      "confusion_matrix": [
+        [
+          335,
+          47,
+          89,
+          412,
+          318,
+          0,
+          79
+        ],
+        [
+          20,
+          881,
+          72,
+          228,
+          65,
+          0,
+          14
+        ],
+        [
+          108,
+          80,
+          694,
+          195,
+          132,
+          0,
+          71
+        ],
+        [
+          139,
+          100,
+          102,
+          636,
+          253,
+          0,
+          50
+        ],
+        [
+          157,
+          45,
+          83,
+          232,
+          647,
+          0,
+          116
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1280,
+          0
+        ],
+        [
+          17,
+          10,
+          56,
+          48,
+          153,
+          0,
+          996
+        ]
+      ],
+      "held_out_physical_seed": 3102,
+      "macro_f1": 0.6099574602495564,
+      "parameter_count": 59079,
+      "per_class_recall": {
+        "imperfect_csi": 0.5421875,
+        "literal": 0.50546875,
+        "low_snr": 0.68828125,
+        "mismatch": 1.0,
+        "normal": 0.26171875,
+        "ood": 0.778125,
+        "spatial_correlation": 0.496875
+      },
+      "source": "existing_neural_fold",
+      "stage": "R3",
+      "stages": [
+        "R3"
+      ],
+      "subset": "R3",
+      "test_samples": 8960,
+      "train_samples": 35840
+    },
+    {
+      "architecture": "tcn",
+      "balanced_accuracy": 0.6021205357142857,
+      "coarse_balanced_accuracy": 0.6275173611111111,
+      "coarse_macro_f1": 0.6312593834874685,
+      "confusion_matrix": [
+        [
+          389,
+          180,
+          163,
+          118,
+          370,
+          0,
+          60
+        ],
+        [
+          17,
+          997,
+          91,
+          83,
+          73,
+          0,
+          19
+        ],
+        [
+          135,
+          171,
+          639,
+          52,
+          218,
+          0,
+          65
+        ],
+        [
+          231,
+          300,
+          163,
+          281,
+          256,
+          0,
+          49
+        ],
+        [
+          125,
+          107,
+          120,
+          71,
+          756,
+          0,
+          101
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1280,
+          0
+        ],
+        [
+          18,
+          27,
+          65,
+          22,
+          95,
+          0,
+          1053
+        ]
+      ],
+      "held_out_physical_seed": 3103,
+      "macro_f1": 0.5864333704851731,
+      "parameter_count": 59079,
+      "per_class_recall": {
+        "imperfect_csi": 0.49921875,
+        "literal": 0.590625,
+        "low_snr": 0.77890625,
+        "mismatch": 1.0,
+        "normal": 0.30390625,
+        "ood": 0.82265625,
+        "spatial_correlation": 0.21953125
+      },
+      "source": "existing_neural_fold",
+      "stage": "R3",
+      "stages": [
+        "R3"
+      ],
+      "subset": "R3",
+      "test_samples": 8960,
+      "train_samples": 35840
+    },
+    {
+      "architecture": "tcn",
+      "balanced_accuracy": 0.5590401785714285,
+      "coarse_balanced_accuracy": 0.6215277777777778,
+      "coarse_macro_f1": 0.6133931516522345,
+      "confusion_matrix": [
+        [
+          530,
+          71,
+          171,
+          83,
+          334,
+          0,
+          91
+        ],
+        [
+          169,
+          658,
+          137,
+          183,
+          109,
+          0,
+          24
+        ],
+        [
+          253,
+          133,
+          571,
+          55,
+          156,
+          0,
+          112
+        ],
+        [
+          376,
+          199,
+          171,
+          219,
+          258,
+          0,
+          57
+        ],
+        [
+          213,
+          52,
+          158,
+          46,
+          692,
+          0,
+          119
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1279,
+          1
+        ],
+        [
+          35,
+          11,
+          72,
+          9,
+          93,
+          0,
+          1060
+        ]
+      ],
+      "held_out_physical_seed": 3104,
+      "macro_f1": 0.5491593335935592,
+      "parameter_count": 59079,
+      "per_class_recall": {
+        "imperfect_csi": 0.44609375,
+        "literal": 0.540625,
+        "low_snr": 0.5140625,
+        "mismatch": 0.99921875,
+        "normal": 0.4140625,
+        "ood": 0.828125,
+        "spatial_correlation": 0.17109375
+      },
+      "source": "existing_neural_fold",
+      "stage": "R3",
+      "stages": [
+        "R3"
+      ],
+      "subset": "R3",
+      "test_samples": 8960,
+      "train_samples": 35840
+    },
+    {
+      "architecture": "tcn",
+      "balanced_accuracy": 0.5880580357142857,
+      "coarse_balanced_accuracy": 0.5986111111111111,
+      "coarse_macro_f1": 0.5997778240575321,
+      "confusion_matrix": [
+        [
+          264,
+          129,
+          129,
+          178,
+          518,
+          0,
+          62
+        ],
+        [
+          21,
+          942,
+          75,
+          106,
+          126,
+          0,
+          10
+        ],
+        [
+          70,
+          121,
+          681,
+          88,
+          259,
+          0,
+          61
+        ],
+        [
+          154,
+          312,
+          124,
+          240,
+          404,
+          0,
+          46
+        ],
+        [
+          70,
+          71,
+          90,
+          81,
+          876,
+          0,
+          92
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1280,
+          0
+        ],
+        [
+          15,
+          14,
+          64,
+          20,
+          181,
+          0,
+          986
+        ]
+      ],
+      "held_out_physical_seed": 3105,
+      "macro_f1": 0.5706950903676978,
+      "parameter_count": 59079,
+      "per_class_recall": {
+        "imperfect_csi": 0.53203125,
+        "literal": 0.684375,
+        "low_snr": 0.7359375,
+        "mismatch": 1.0,
+        "normal": 0.20625,
+        "ood": 0.7703125,
+        "spatial_correlation": 0.1875
+      },
+      "source": "existing_neural_fold",
+      "stage": "R3",
+      "stages": [
+        "R3"
+      ],
+      "subset": "R3",
+      "test_samples": 8960,
+      "train_samples": 35840
+    },
+    {
+      "architecture": "tcn_branchwise_subset",
+      "balanced_accuracy": 0.5104910714285714,
+      "coarse_balanced_accuracy": 0.5618923611111111,
+      "coarse_macro_f1": 0.5425081407356258,
+      "confusion_matrix": [
+        [
+          507,
+          39,
+          235,
+          195,
+          158,
+          6,
+          140
+        ],
+        [
+          8,
+          1230,
+          23,
+          16,
+          2,
+          0,
+          1
+        ],
+        [
+          94,
+          23,
+          888,
+          133,
+          30,
+          1,
+          111
+        ],
+        [
+          191,
+          2,
+          121,
+          862,
+          58,
+          0,
+          46
+        ],
+        [
+          394,
+          25,
+          247,
+          174,
+          224,
+          3,
+          213
+        ],
+        [
+          507,
+          39,
+          235,
+          195,
+          158,
+          6,
+          140
+        ],
+        [
+          52,
+          3,
+          191,
+          124,
+          52,
+          1,
+          857
+        ]
+      ],
+      "held_out_physical_seed": 3101,
+      "macro_f1": 0.4640609230565539,
+      "parameter_count": 103047,
+      "per_class_recall": {
+        "imperfect_csi": 0.69375,
+        "literal": 0.175,
+        "low_snr": 0.9609375,
+        "mismatch": 0.0046875,
+        "normal": 0.39609375,
+        "ood": 0.66953125,
+        "spatial_correlation": 0.6734375
+      },
+      "source": "new_subset_fold",
+      "stages": [
+        "R0",
+        "R1"
+      ],
+      "subset": "R0_R1",
+      "task_index": 0,
+      "test_records_sha256": "2a4eb31549265c77621a1d3ad002c36748881898a4bc9670e488baa4809dc731",
+      "test_samples": 8960,
+      "train_records_sha256": "f0bc9d8f38d6419d68fae9c9491454ada719d111eb3011f1d9a49480f1b4c177",
+      "train_samples": 35840,
+      "training": {
+        "batch_size": 64,
+        "epochs": 12,
+        "learning_rate": 0.0003,
+        "seed": 5501,
+        "weight_decay": 0.0001
+      }
+    },
+    {
+      "architecture": "tcn_branchwise_subset",
+      "balanced_accuracy": 0.4438616071428572,
+      "coarse_balanced_accuracy": 0.4598958333333334,
+      "coarse_macro_f1": 0.43023766814339237,
+      "confusion_matrix": [
+        [
+          136,
+          62,
+          109,
+          745,
+          161,
+          7,
+          60
+        ],
+        [
+          5,
+          1254,
+          4,
+          6,
+          9,
+          0,
+          2
+        ],
+        [
+          17,
+          52,
+          617,
+          498,
+          27,
+          1,
+          68
+        ],
+        [
+          18,
+          48,
+          48,
+          1139,
+          12,
+          0,
+          15
+        ],
+        [
+          88,
+          53,
+          120,
+          713,
+          206,
+          6,
+          94
+        ],
+        [
+          136,
+          62,
+          109,
+          745,
+          161,
+          7,
+          60
+        ],
+        [
+          11,
+          34,
+          96,
+          449,
+          72,
+          0,
+          618
+        ]
+      ],
+      "held_out_physical_seed": 3102,
+      "macro_f1": 0.393697415791129,
+      "parameter_count": 103047,
+      "per_class_recall": {
+        "imperfect_csi": 0.48203125,
+        "literal": 0.1609375,
+        "low_snr": 0.9796875,
+        "mismatch": 0.00546875,
+        "normal": 0.10625,
+        "ood": 0.4828125,
+        "spatial_correlation": 0.88984375
+      },
+      "source": "new_subset_fold",
+      "stages": [
+        "R0",
+        "R1"
+      ],
+      "subset": "R0_R1",
+      "task_index": 1,
+      "test_records_sha256": "e061b2ee4b0f1e29e65439a939e0ebd961772ae47f2fa20363ac048305b0da67",
+      "test_samples": 8960,
+      "train_records_sha256": "7c7a13a2e508909e98ca66c3994adc27ddaee1090877c3ae7098ad33252bb62b",
+      "train_samples": 35840,
+      "training": {
+        "batch_size": 64,
+        "epochs": 12,
+        "learning_rate": 0.0003,
+        "seed": 5501,
+        "weight_decay": 0.0001
+      }
+    },
+    {
+      "architecture": "tcn_branchwise_subset",
+      "balanced_accuracy": 0.5244419642857144,
+      "coarse_balanced_accuracy": 0.5359375000000001,
+      "coarse_macro_f1": 0.5284113886982602,
+      "confusion_matrix": [
+        [
+          241,
+          5,
+          186,
+          393,
+          278,
+          51,
+          126
+        ],
+        [
+          0,
+          1269,
+          5,
+          5,
+          0,
+          0,
+          1
+        ],
+        [
+          35,
+          15,
+          912,
+          174,
+          67,
+          10,
+          67
+        ],
+        [
+          55,
+          8,
+          82,
+          1006,
+          80,
+          14,
+          35
+        ],
+        [
+          154,
+          2,
+          189,
+          362,
+          362,
+          27,
+          184
+        ],
+        [
+          241,
+          5,
+          186,
+          393,
+          278,
+          51,
+          126
+        ],
+        [
+          15,
+          1,
+          116,
+          201,
+          84,
+          5,
+          858
+        ]
+      ],
+      "held_out_physical_seed": 3103,
+      "macro_f1": 0.48212959365751196,
+      "parameter_count": 103047,
+      "per_class_recall": {
+        "imperfect_csi": 0.7125,
+        "literal": 0.2828125,
+        "low_snr": 0.99140625,
+        "mismatch": 0.03984375,
+        "normal": 0.18828125,
+        "ood": 0.6703125,
+        "spatial_correlation": 0.7859375
+      },
+      "source": "new_subset_fold",
+      "stages": [
+        "R0",
+        "R1"
+      ],
+      "subset": "R0_R1",
+      "task_index": 2,
+      "test_records_sha256": "f2b3b7f9cadc8e826f58e45899b1b3a8022f17c6e5ea2b0a67f9cd9d2e8141e0",
+      "test_samples": 8960,
+      "train_records_sha256": "891c0b7bfb1bcfd7ec58ce6a1ab38a9aa8d41f77c45afa4a73d546fb61376942",
+      "train_samples": 35840,
+      "training": {
+        "batch_size": 64,
+        "epochs": 12,
+        "learning_rate": 0.0003,
+        "seed": 5501,
+        "weight_decay": 0.0001
+      }
+    },
+    {
+      "architecture": "tcn_branchwise_subset",
+      "balanced_accuracy": 0.49263392857142846,
+      "coarse_balanced_accuracy": 0.5173611111111112,
+      "coarse_macro_f1": 0.4870773737829303,
+      "confusion_matrix": [
+        [
+          24,
+          78,
+          139,
+          8,
+          401,
+          341,
+          289
+        ],
+        [
+          1,
+          1245,
+          1,
+          0,
+          4,
+          20,
+          9
+        ],
+        [
+          11,
+          48,
+          471,
+          5,
+          162,
+          199,
+          384
+        ],
+        [
+          5,
+          8,
+          69,
+          822,
+          130,
+          139,
+          107
+        ],
+        [
+          12,
+          58,
+          134,
+          12,
+          484,
+          172,
+          408
+        ],
+        [
+          24,
+          78,
+          139,
+          8,
+          400,
+          342,
+          289
+        ],
+        [
+          1,
+          32,
+          122,
+          1,
+          75,
+          23,
+          1026
+        ]
+      ],
+      "held_out_physical_seed": 3104,
+      "macro_f1": 0.46121442661672335,
+      "parameter_count": 103047,
+      "per_class_recall": {
+        "imperfect_csi": 0.36796875,
+        "literal": 0.378125,
+        "low_snr": 0.97265625,
+        "mismatch": 0.2671875,
+        "normal": 0.01875,
+        "ood": 0.8015625,
+        "spatial_correlation": 0.6421875
+      },
+      "source": "new_subset_fold",
+      "stages": [
+        "R0",
+        "R1"
+      ],
+      "subset": "R0_R1",
+      "task_index": 3,
+      "test_records_sha256": "f7c833a65158435e34b627f983bbee63afb253e0f5af1d9265cf4bac31044932",
+      "test_samples": 8960,
+      "train_records_sha256": "37fb03b999a1849c255412ead06c47f66a53f59a29d984383f0026e0a70a7bf4",
+      "train_samples": 35840,
+      "training": {
+        "batch_size": 64,
+        "epochs": 12,
+        "learning_rate": 0.0003,
+        "seed": 5501,
+        "weight_decay": 0.0001
+      }
+    },
+    {
+      "architecture": "tcn_branchwise_subset",
+      "balanced_accuracy": 0.5194196428571429,
+      "coarse_balanced_accuracy": 0.5755208333333334,
+      "coarse_macro_f1": 0.5774785199117433,
+      "confusion_matrix": [
+        [
+          315,
+          137,
+          26,
+          18,
+          437,
+          245,
+          102
+        ],
+        [
+          0,
+          1278,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          67,
+          129,
+          694,
+          5,
+          197,
+          63,
+          125
+        ],
+        [
+          189,
+          52,
+          18,
+          678,
+          194,
+          121,
+          28
+        ],
+        [
+          202,
+          131,
+          21,
+          14,
+          556,
+          181,
+          175
+        ],
+        [
+          313,
+          137,
+          26,
+          18,
+          438,
+          246,
+          102
+        ],
+        [
+          31,
+          101,
+          12,
+          4,
+          212,
+          33,
+          887
+        ]
+      ],
+      "held_out_physical_seed": 3105,
+      "macro_f1": 0.5157361786235833,
+      "parameter_count": 103047,
+      "per_class_recall": {
+        "imperfect_csi": 0.5421875,
+        "literal": 0.434375,
+        "low_snr": 0.9984375,
+        "mismatch": 0.1921875,
+        "normal": 0.24609375,
+        "ood": 0.69296875,
+        "spatial_correlation": 0.5296875
+      },
+      "source": "new_subset_fold",
+      "stages": [
+        "R0",
+        "R1"
+      ],
+      "subset": "R0_R1",
+      "task_index": 4,
+      "test_records_sha256": "f1cd8d601a8f16a03040a9a56191765521c03e7bfd8d94653d33de0721b36467",
+      "test_samples": 8960,
+      "train_records_sha256": "bc27b9cc76fdf0355e52643771b474a4d61e89a516725ba9439ff92bfd2c8cd9",
+      "train_samples": 35840,
+      "training": {
+        "batch_size": 64,
+        "epochs": 12,
+        "learning_rate": 0.0003,
+        "seed": 5501,
+        "weight_decay": 0.0001
+      }
+    },
+    {
+      "architecture": "tcn_branchwise_subset",
+      "balanced_accuracy": 0.6724330357142857,
+      "coarse_balanced_accuracy": 0.6884548611111111,
+      "coarse_macro_f1": 0.6729740228653206,
+      "confusion_matrix": [
+        [
+          718,
+          32,
+          170,
+          151,
+          42,
+          0,
+          167
+        ],
+        [
+          23,
+          1235,
+          17,
+          1,
+          1,
+          0,
+          3
+        ],
+        [
+          149,
+          3,
+          915,
+          80,
+          3,
+          0,
+          130
+        ],
+        [
+          263,
+          16,
+          73,
+          858,
+          13,
+          0,
+          57
+        ],
+        [
+          588,
+          23,
+          170,
+          151,
+          90,
+          0,
+          258
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1280,
+          0
+        ],
+        [
+          78,
+          2,
+          129,
+          120,
+          22,
+          0,
+          929
+        ]
+      ],
+      "held_out_physical_seed": 3101,
+      "macro_f1": 0.6447002077286551,
+      "parameter_count": 110215,
+      "per_class_recall": {
+        "imperfect_csi": 0.71484375,
+        "literal": 0.0703125,
+        "low_snr": 0.96484375,
+        "mismatch": 1.0,
+        "normal": 0.5609375,
+        "ood": 0.72578125,
+        "spatial_correlation": 0.6703125
+      },
+      "source": "new_subset_fold",
+      "stages": [
+        "R0",
+        "R2"
+      ],
+      "subset": "R0_R2",
+      "task_index": 5,
+      "test_records_sha256": "2a4eb31549265c77621a1d3ad002c36748881898a4bc9670e488baa4809dc731",
+      "test_samples": 8960,
+      "train_records_sha256": "f0bc9d8f38d6419d68fae9c9491454ada719d111eb3011f1d9a49480f1b4c177",
+      "train_samples": 35840,
+      "training": {
+        "batch_size": 64,
+        "epochs": 12,
+        "learning_rate": 0.0003,
+        "seed": 5501,
+        "weight_decay": 0.0001
+      }
+    },
+    {
+      "architecture": "tcn_branchwise_subset",
+      "balanced_accuracy": 0.6254464285714285,
+      "coarse_balanced_accuracy": 0.553125,
+      "coarse_macro_f1": 0.5354546723220747,
+      "confusion_matrix": [
+        [
+          98,
+          40,
+          104,
+          673,
+          288,
+          0,
+          77
+        ],
+        [
+          8,
+          1229,
+          9,
+          7,
+          21,
+          0,
+          6
+        ],
+        [
+          34,
+          24,
+          864,
+          248,
+          63,
+          0,
+          47
+        ],
+        [
+          17,
+          18,
+          43,
+          1153,
+          35,
+          0,
+          14
+        ],
+        [
+          49,
+          26,
+          108,
+          652,
+          331,
+          0,
+          114
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1280,
+          0
+        ],
+        [
+          6,
+          18,
+          103,
+          395,
+          109,
+          0,
+          649
+        ]
+      ],
+      "held_out_physical_seed": 3102,
+      "macro_f1": 0.597178568039246,
+      "parameter_count": 110215,
+      "per_class_recall": {
+        "imperfect_csi": 0.675,
+        "literal": 0.25859375,
+        "low_snr": 0.96015625,
+        "mismatch": 1.0,
+        "normal": 0.0765625,
+        "ood": 0.50703125,
+        "spatial_correlation": 0.90078125
+      },
+      "source": "new_subset_fold",
+      "stages": [
+        "R0",
+        "R2"
+      ],
+      "subset": "R0_R2",
+      "task_index": 6,
+      "test_records_sha256": "e061b2ee4b0f1e29e65439a939e0ebd961772ae47f2fa20363ac048305b0da67",
+      "test_samples": 8960,
+      "train_records_sha256": "7c7a13a2e508909e98ca66c3994adc27ddaee1090877c3ae7098ad33252bb62b",
+      "train_samples": 35840,
+      "training": {
+        "batch_size": 64,
+        "epochs": 12,
+        "learning_rate": 0.0003,
+        "seed": 5501,
+        "weight_decay": 0.0001
+      }
+    },
+    {
+      "architecture": "tcn_branchwise_subset",
+      "balanced_accuracy": 0.6751116071428571,
+      "coarse_balanced_accuracy": 0.6614583333333334,
+      "coarse_macro_f1": 0.6621244075983403,
+      "confusion_matrix": [
+        [
+          524,
+          9,
+          75,
+          385,
+          201,
+          0,
+          86
+        ],
+        [
+          5,
+          1263,
+          0,
+          8,
+          3,
+          0,
+          1
+        ],
+        [
+          115,
+          16,
+          819,
+          221,
+          54,
+          0,
+          55
+        ],
+        [
+          127,
+          21,
+          36,
+          1004,
+          63,
+          0,
+          29
+        ],
+        [
+          366,
+          3,
+          64,
+          380,
+          340,
+          0,
+          127
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1280,
+          0
+        ],
+        [
+          52,
+          2,
+          71,
+          242,
+          94,
+          0,
+          819
+        ]
+      ],
+      "held_out_physical_seed": 3103,
+      "macro_f1": 0.6692453628188492,
+      "parameter_count": 110215,
+      "per_class_recall": {
+        "imperfect_csi": 0.63984375,
+        "literal": 0.265625,
+        "low_snr": 0.98671875,
+        "mismatch": 1.0,
+        "normal": 0.409375,
+        "ood": 0.63984375,
+        "spatial_correlation": 0.784375
+      },
+      "source": "new_subset_fold",
+      "stages": [
+        "R0",
+        "R2"
+      ],
+      "subset": "R0_R2",
+      "task_index": 7,
+      "test_records_sha256": "f2b3b7f9cadc8e826f58e45899b1b3a8022f17c6e5ea2b0a67f9cd9d2e8141e0",
+      "test_samples": 8960,
+      "train_records_sha256": "891c0b7bfb1bcfd7ec58ce6a1ab38a9aa8d41f77c45afa4a73d546fb61376942",
+      "train_samples": 35840,
+      "training": {
+        "batch_size": 64,
+        "epochs": 12,
+        "learning_rate": 0.0003,
+        "seed": 5501,
+        "weight_decay": 0.0001
+      }
+    },
+    {
+      "architecture": "tcn_branchwise_subset",
+      "balanced_accuracy": 0.64296875,
+      "coarse_balanced_accuracy": 0.6080729166666666,
+      "coarse_macro_f1": 0.6104506973865839,
+      "confusion_matrix": [
+        [
+          317,
+          89,
+          72,
+          85,
+          421,
+          0,
+          296
+        ],
+        [
+          9,
+          1259,
+          3,
+          0,
+          6,
+          0,
+          3
+        ],
+        [
+          208,
+          61,
+          496,
+          26,
+          150,
+          2,
+          337
+        ],
+        [
+          112,
+          14,
+          48,
+          879,
+          119,
+          0,
+          108
+        ],
+        [
+          189,
+          68,
+          72,
+          77,
+          479,
+          0,
+          395
+        ],
+        [
+          0,
+          2,
+          0,
+          0,
+          0,
+          1278,
+          0
+        ],
+        [
+          26,
+          29,
+          70,
+          39,
+          63,
+          0,
+          1053
+        ]
+      ],
+      "held_out_physical_seed": 3104,
+      "macro_f1": 0.6290094830092455,
+      "parameter_count": 110215,
+      "per_class_recall": {
+        "imperfect_csi": 0.3875,
+        "literal": 0.37421875,
+        "low_snr": 0.98359375,
+        "mismatch": 0.9984375,
+        "normal": 0.24765625,
+        "ood": 0.82265625,
+        "spatial_correlation": 0.68671875
+      },
+      "source": "new_subset_fold",
+      "stages": [
+        "R0",
+        "R2"
+      ],
+      "subset": "R0_R2",
+      "task_index": 8,
+      "test_records_sha256": "f7c833a65158435e34b627f983bbee63afb253e0f5af1d9265cf4bac31044932",
+      "test_samples": 8960,
+      "train_records_sha256": "37fb03b999a1849c255412ead06c47f66a53f59a29d984383f0026e0a70a7bf4",
+      "train_samples": 35840,
+      "training": {
+        "batch_size": 64,
+        "epochs": 12,
+        "learning_rate": 0.0003,
+        "seed": 5501,
+        "weight_decay": 0.0001
+      }
+    },
+    {
+      "architecture": "tcn_branchwise_subset",
+      "balanced_accuracy": 0.6618303571428571,
+      "coarse_balanced_accuracy": 0.6347222222222223,
+      "coarse_macro_f1": 0.6382919426188637,
+      "confusion_matrix": [
+        [
+          374,
+          135,
+          127,
+          48,
+          456,
+          0,
+          140
+        ],
+        [
+          0,
+          1279,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          89,
+          122,
+          756,
+          8,
+          169,
+          0,
+          136
+        ],
+        [
+          203,
+          43,
+          106,
+          705,
+          171,
+          0,
+          52
+        ],
+        [
+          238,
+          119,
+          96,
+          39,
+          555,
+          0,
+          233
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1280,
+          0
+        ],
+        [
+          32,
+          83,
+          47,
+          16,
+          121,
+          0,
+          981
+        ]
+      ],
+      "held_out_physical_seed": 3105,
+      "macro_f1": 0.6530185955452442,
+      "parameter_count": 110215,
+      "per_class_recall": {
+        "imperfect_csi": 0.590625,
+        "literal": 0.43359375,
+        "low_snr": 0.99921875,
+        "mismatch": 1.0,
+        "normal": 0.2921875,
+        "ood": 0.76640625,
+        "spatial_correlation": 0.55078125
+      },
+      "source": "new_subset_fold",
+      "stages": [
+        "R0",
+        "R2"
+      ],
+      "subset": "R0_R2",
+      "task_index": 9,
+      "test_records_sha256": "f1cd8d601a8f16a03040a9a56191765521c03e7bfd8d94653d33de0721b36467",
+      "test_samples": 8960,
+      "train_records_sha256": "bc27b9cc76fdf0355e52643771b474a4d61e89a516725ba9439ff92bfd2c8cd9",
+      "train_samples": 35840,
+      "training": {
+        "batch_size": 64,
+        "epochs": 12,
+        "learning_rate": 0.0003,
+        "seed": 5501,
+        "weight_decay": 0.0001
+      }
+    },
+    {
+      "architecture": "tcn_branchwise_subset",
+      "balanced_accuracy": 0.69609375,
+      "coarse_balanced_accuracy": 0.7069444444444445,
+      "coarse_macro_f1": 0.6909284499988426,
+      "confusion_matrix": [
+        [
+          753,
+          14,
+          186,
+          134,
+          119,
+          0,
+          74
+        ],
+        [
+          9,
+          1252,
+          13,
+          4,
+          1,
+          0,
+          1
+        ],
+        [
+          289,
+          40,
+          683,
+          120,
+          70,
+          0,
+          78
+        ],
+        [
+          273,
+          9,
+          72,
+          841,
+          43,
+          0,
+          42
+        ],
+        [
+          472,
+          12,
+          170,
+          132,
+          389,
+          0,
+          105
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          1279,
+          0
+        ],
+        [
+          61,
+          5,
+          92,
+          44,
+          38,
+          0,
+          1040
+        ]
+      ],
+      "held_out_physical_seed": 3101,
+      "macro_f1": 0.6912125640342196,
+      "parameter_count": 110215,
+      "per_class_recall": {
+        "imperfect_csi": 0.53359375,
+        "literal": 0.30390625,
+        "low_snr": 0.978125,
+        "mismatch": 0.99921875,
+        "normal": 0.58828125,
+        "ood": 0.8125,
+        "spatial_correlation": 0.65703125
+      },
+      "source": "new_subset_fold",
+      "stages": [
+        "R0",
+        "R3"
+      ],
+      "subset": "R0_R3",
+      "task_index": 10,
+      "test_records_sha256": "2a4eb31549265c77621a1d3ad002c36748881898a4bc9670e488baa4809dc731",
+      "test_samples": 8960,
+      "train_records_sha256": "f0bc9d8f38d6419d68fae9c9491454ada719d111eb3011f1d9a49480f1b4c177",
+      "train_samples": 35840,
+      "training": {
+        "batch_size": 64,
+        "epochs": 12,
+        "learning_rate": 0.0003,
+        "seed": 5501,
+        "weight_decay": 0.0001
+      }
+    },
+    {
+      "architecture": "tcn_branchwise_subset",
+      "balanced_accuracy": 0.6422991071428571,
+      "coarse_balanced_accuracy": 0.578125,
+      "coarse_macro_f1": 0.5646515786931987,
+      "confusion_matrix": [
+        [
+          118,
+          18,
+          230,
+          647,
+          239,
+          0,
+          28
+        ],
+        [
+          0,
+          1263,
+          7,
+          3,
+          5,
+          0,
+          2
+        ],
+        [
+          28,
+          48,
+          785,
+          345,
+          52,
+          0,
+          22
+        ],
+        [
+          20,
+          15,
+          66,
+          1127,
+          48,
+          0,
+          4
+        ],
+        [
+          35,
+          14,
+          175,
+          557,
+          468,
+          0,
+          31
+        ],
+        [
+          0,
+          0,
+          0,
+          6,
+          0,
+          1274,
+          0
+        ],
+        [
+          8,
+          3,
+          112,
+          283,
+          154,
+          0,
+          720
+        ]
+      ],
+      "held_out_physical_seed": 3102,
+      "macro_f1": 0.6201812144021372,
+      "parameter_count": 110215,
+      "per_class_recall": {
+        "imperfect_csi": 0.61328125,
+        "literal": 0.365625,
+        "low_snr": 0.98671875,
+        "mismatch": 0.9953125,
+        "normal": 0.0921875,
+        "ood": 0.5625,
+        "spatial_correlation": 0.88046875
+      },
+      "source": "new_subset_fold",
+      "stages": [
+        "R0",
+        "R3"
+      ],
+      "subset": "R0_R3",
+      "task_index": 11,
+      "test_records_sha256": "e061b2ee4b0f1e29e65439a939e0ebd961772ae47f2fa20363ac048305b0da67",
+      "test_samples": 8960,
+      "train_records_sha256": "7c7a13a2e508909e98ca66c3994adc27ddaee1090877c3ae7098ad33252bb62b",
+      "train_samples": 35840,
+      "training": {
+        "batch_size": 64,
+        "epochs": 12,
+        "learning_rate": 0.0003,
+        "seed": 5501,
+        "weight_decay": 0.0001
+      }
+    },
+    {
+      "architecture": "tcn_branchwise_subset",
+      "balanced_accuracy": 0.6756696428571429,
+      "coarse_balanced_accuracy": 0.6483506944444445,
+      "coarse_macro_f1": 0.653421096345267,
+      "confusion_matrix": [
+        [
+          425,
+          2,
+          209,
+          390,
+          201,
+          0,
+          53
+        ],
+        [
+          11,
+          1219,
+          28,
+          10,
+          10,
+          0,
+          2
+        ],
+        [
+          156,
+          13,
+          690,
+          248,
+          133,
+          0,
+          40
+        ],
+        [
+          137,
+          3,
+          119,
+          949,
+          53,
+          0,
+          19
+        ],
+        [
+          208,
+          1,
+          164,
+          323,
+          504,
+          0,
+          80
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1279,
+          1
+        ],
+        [
+          36,
+          0,
+          93,
+          100,
+          63,
+          0,
+          988
+        ]
+      ],
+      "held_out_physical_seed": 3103,
+      "macro_f1": 0.6722854616760211,
+      "parameter_count": 110215,
+      "per_class_recall": {
+        "imperfect_csi": 0.5390625,
+        "literal": 0.39375,
+        "low_snr": 0.95234375,
+        "mismatch": 0.99921875,
+        "normal": 0.33203125,
+        "ood": 0.771875,
+        "spatial_correlation": 0.74140625
+      },
+      "source": "new_subset_fold",
+      "stages": [
+        "R0",
+        "R3"
+      ],
+      "subset": "R0_R3",
+      "task_index": 12,
+      "test_records_sha256": "f2b3b7f9cadc8e826f58e45899b1b3a8022f17c6e5ea2b0a67f9cd9d2e8141e0",
+      "test_samples": 8960,
+      "train_records_sha256": "891c0b7bfb1bcfd7ec58ce6a1ab38a9aa8d41f77c45afa4a73d546fb61376942",
+      "train_samples": 35840,
+      "training": {
+        "batch_size": 64,
+        "epochs": 12,
+        "learning_rate": 0.0003,
+        "seed": 5501,
+        "weight_decay": 0.0001
+      }
+    },
+    {
+      "architecture": "tcn_branchwise_subset",
+      "balanced_accuracy": 0.6873883928571429,
+      "coarse_balanced_accuracy": 0.657638888888889,
+      "coarse_macro_f1": 0.6616716134143443,
+      "confusion_matrix": [
+        [
+          443,
+          157,
+          73,
+          54,
+          456,
+          0,
+          97
+        ],
+        [
+          1,
+          1271,
+          0,
+          0,
+          5,
+          0,
+          3
+        ],
+        [
+          211,
+          161,
+          454,
+          44,
+          253,
+          1,
+          156
+        ],
+        [
+          179,
+          29,
+          41,
+          865,
+          132,
+          0,
+          34
+        ],
+        [
+          139,
+          97,
+          57,
+          36,
+          809,
+          0,
+          142
+        ],
+        [
+          0,
+          13,
+          0,
+          0,
+          0,
+          1267,
+          0
+        ],
+        [
+          23,
+          38,
+          42,
+          13,
+          114,
+          0,
+          1050
+        ]
+      ],
+      "held_out_physical_seed": 3104,
+      "macro_f1": 0.675780604841596,
+      "parameter_count": 110215,
+      "per_class_recall": {
+        "imperfect_csi": 0.3546875,
+        "literal": 0.63203125,
+        "low_snr": 0.99296875,
+        "mismatch": 0.98984375,
+        "normal": 0.34609375,
+        "ood": 0.8203125,
+        "spatial_correlation": 0.67578125
+      },
+      "source": "new_subset_fold",
+      "stages": [
+        "R0",
+        "R3"
+      ],
+      "subset": "R0_R3",
+      "task_index": 13,
+      "test_records_sha256": "f7c833a65158435e34b627f983bbee63afb253e0f5af1d9265cf4bac31044932",
+      "test_samples": 8960,
+      "train_records_sha256": "37fb03b999a1849c255412ead06c47f66a53f59a29d984383f0026e0a70a7bf4",
+      "train_samples": 35840,
+      "training": {
+        "batch_size": 64,
+        "epochs": 12,
+        "learning_rate": 0.0003,
+        "seed": 5501,
+        "weight_decay": 0.0001
+      }
+    },
+    {
+      "architecture": "tcn_branchwise_subset",
+      "balanced_accuracy": 0.689955357142857,
+      "coarse_balanced_accuracy": 0.6632812499999999,
+      "coarse_macro_f1": 0.6669253217918542,
+      "confusion_matrix": [
+        [
+          488,
+          128,
+          79,
+          53,
+          464,
+          0,
+          68
+        ],
+        [
+          3,
+          1264,
+          5,
+          0,
+          5,
+          0,
+          3
+        ],
+        [
+          160,
+          153,
+          612,
+          14,
+          266,
+          0,
+          75
+        ],
+        [
+          220,
+          32,
+          53,
+          723,
+          214,
+          0,
+          38
+        ],
+        [
+          174,
+          109,
+          67,
+          34,
+          798,
+          0,
+          98
+        ],
+        [
+          0,
+          7,
+          0,
+          0,
+          0,
+          1273,
+          0
+        ],
+        [
+          31,
+          56,
+          29,
+          12,
+          128,
+          0,
+          1024
+        ]
+      ],
+      "held_out_physical_seed": 3105,
+      "macro_f1": 0.6861862432713528,
+      "parameter_count": 110215,
+      "per_class_recall": {
+        "imperfect_csi": 0.478125,
+        "literal": 0.6234375,
+        "low_snr": 0.9875,
+        "mismatch": 0.99453125,
+        "normal": 0.38125,
+        "ood": 0.8,
+        "spatial_correlation": 0.56484375
+      },
+      "source": "new_subset_fold",
+      "stages": [
+        "R0",
+        "R3"
+      ],
+      "subset": "R0_R3",
+      "task_index": 14,
+      "test_records_sha256": "f1cd8d601a8f16a03040a9a56191765521c03e7bfd8d94653d33de0721b36467",
+      "test_samples": 8960,
+      "train_records_sha256": "bc27b9cc76fdf0355e52643771b474a4d61e89a516725ba9439ff92bfd2c8cd9",
+      "train_samples": 35840,
+      "training": {
+        "batch_size": 64,
+        "epochs": 12,
+        "learning_rate": 0.0003,
+        "seed": 5501,
+        "weight_decay": 0.0001
+      }
+    },
+    {
+      "architecture": "tcn_branchwise_subset",
+      "balanced_accuracy": 0.6130580357142857,
+      "coarse_balanced_accuracy": 0.6646701388888889,
+      "coarse_macro_f1": 0.65374848883079,
+      "confusion_matrix": [
+        [
+          651,
+          71,
+          253,
+          44,
+          125,
+          0,
+          136
+        ],
+        [
+          66,
+          1011,
+          159,
+          27,
+          6,
+          0,
+          11
+        ],
+        [
+          85,
+          57,
+          1008,
+          3,
+          21,
+          0,
+          106
+        ],
+        [
+          402,
+          161,
+          164,
+          360,
+          78,
+          0,
+          115
+        ],
+        [
+          505,
+          46,
+          254,
+          30,
+          201,
+          0,
+          244
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1280,
+          0
+        ],
+        [
+          59,
+          5,
+          177,
+          10,
+          47,
+          0,
+          982
+        ]
+      ],
+      "held_out_physical_seed": 3101,
+      "macro_f1": 0.5900082748493655,
+      "parameter_count": 110983,
+      "per_class_recall": {
+        "imperfect_csi": 0.7875,
+        "literal": 0.15703125,
+        "low_snr": 0.78984375,
+        "mismatch": 1.0,
+        "normal": 0.50859375,
+        "ood": 0.7671875,
+        "spatial_correlation": 0.28125
+      },
+      "source": "new_subset_fold",
+      "stages": [
+        "R1",
+        "R2"
+      ],
+      "subset": "R1_R2",
+      "task_index": 15,
+      "test_records_sha256": "2a4eb31549265c77621a1d3ad002c36748881898a4bc9670e488baa4809dc731",
+      "test_samples": 8960,
+      "train_records_sha256": "f0bc9d8f38d6419d68fae9c9491454ada719d111eb3011f1d9a49480f1b4c177",
+      "train_samples": 35840,
+      "training": {
+        "batch_size": 64,
+        "epochs": 12,
+        "learning_rate": 0.0003,
+        "seed": 5501,
+        "weight_decay": 0.0001
+      }
+    },
+    {
+      "architecture": "tcn_branchwise_subset",
+      "balanced_accuracy": 0.5991071428571428,
+      "coarse_balanced_accuracy": 0.5596354166666667,
+      "coarse_macro_f1": 0.5444091408205222,
+      "confusion_matrix": [
+        [
+          104,
+          100,
+          74,
+          510,
+          363,
+          0,
+          129
+        ],
+        [
+          17,
+          1011,
+          9,
+          201,
+          35,
+          0,
+          7
+        ],
+        [
+          42,
+          62,
+          767,
+          170,
+          112,
+          0,
+          127
+        ],
+        [
+          23,
+          97,
+          35,
+          872,
+          162,
+          0,
+          91
+        ],
+        [
+          49,
+          64,
+          62,
+          473,
+          424,
+          0,
+          208
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1280,
+          0
+        ],
+        [
+          5,
+          18,
+          36,
+          222,
+          89,
+          0,
+          910
+        ]
+      ],
+      "held_out_physical_seed": 3102,
+      "macro_f1": 0.5794435755349451,
+      "parameter_count": 110983,
+      "per_class_recall": {
+        "imperfect_csi": 0.59921875,
+        "literal": 0.33125,
+        "low_snr": 0.78984375,
+        "mismatch": 1.0,
+        "normal": 0.08125,
+        "ood": 0.7109375,
+        "spatial_correlation": 0.68125
+      },
+      "source": "new_subset_fold",
+      "stages": [
+        "R1",
+        "R2"
+      ],
+      "subset": "R1_R2",
+      "task_index": 16,
+      "test_records_sha256": "e061b2ee4b0f1e29e65439a939e0ebd961772ae47f2fa20363ac048305b0da67",
+      "test_samples": 8960,
+      "train_records_sha256": "7c7a13a2e508909e98ca66c3994adc27ddaee1090877c3ae7098ad33252bb62b",
+      "train_samples": 35840,
+      "training": {
+        "batch_size": 64,
+        "epochs": 12,
+        "learning_rate": 0.0003,
+        "seed": 5501,
+        "weight_decay": 0.0001
+      }
+    },
+    {
+      "architecture": "tcn_branchwise_subset",
+      "balanced_accuracy": 0.6532366071428571,
+      "coarse_balanced_accuracy": 0.6363715277777778,
+      "coarse_macro_f1": 0.6402839977774618,
+      "confusion_matrix": [
+        [
+          374,
+          99,
+          131,
+          243,
+          315,
+          0,
+          118
+        ],
+        [
+          9,
+          1116,
+          13,
+          122,
+          9,
+          0,
+          11
+        ],
+        [
+          60,
+          46,
+          926,
+          92,
+          70,
+          0,
+          86
+        ],
+        [
+          196,
+          93,
+          57,
+          735,
+          139,
+          0,
+          60
+        ],
+        [
+          250,
+          65,
+          120,
+          195,
+          458,
+          0,
+          192
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1280,
+          0
+        ],
+        [
+          11,
+          0,
+          60,
+          130,
+          115,
+          0,
+          964
+        ]
+      ],
+      "held_out_physical_seed": 3103,
+      "macro_f1": 0.6438036081242607,
+      "parameter_count": 110983,
+      "per_class_recall": {
+        "imperfect_csi": 0.7234375,
+        "literal": 0.3578125,
+        "low_snr": 0.871875,
+        "mismatch": 1.0,
+        "normal": 0.2921875,
+        "ood": 0.753125,
+        "spatial_correlation": 0.57421875
+      },
+      "source": "new_subset_fold",
+      "stages": [
+        "R1",
+        "R2"
+      ],
+      "subset": "R1_R2",
+      "task_index": 17,
+      "test_records_sha256": "f2b3b7f9cadc8e826f58e45899b1b3a8022f17c6e5ea2b0a67f9cd9d2e8141e0",
+      "test_samples": 8960,
+      "train_records_sha256": "891c0b7bfb1bcfd7ec58ce6a1ab38a9aa8d41f77c45afa4a73d546fb61376942",
+      "train_samples": 35840,
+      "training": {
+        "batch_size": 64,
+        "epochs": 12,
+        "learning_rate": 0.0003,
+        "seed": 5501,
+        "weight_decay": 0.0001
+      }
+    },
+    {
+      "architecture": "tcn_branchwise_subset",
+      "balanced_accuracy": 0.5658482142857143,
+      "coarse_balanced_accuracy": 0.5949652777777777,
+      "coarse_macro_f1": 0.5919316068668738,
+      "confusion_matrix": [
+        [
+          442,
+          132,
+          38,
+          91,
+          453,
+          0,
+          124
+        ],
+        [
+          159,
+          777,
+          51,
+          189,
+          80,
+          0,
+          24
+        ],
+        [
+          212,
+          108,
+          562,
+          24,
+          164,
+          1,
+          209
+        ],
+        [
+          252,
+          131,
+          34,
+          458,
+          297,
+          0,
+          108
+        ],
+        [
+          229,
+          115,
+          72,
+          63,
+          599,
+          0,
+          202
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1280,
+          0
+        ],
+        [
+          30,
+          75,
+          41,
+          21,
+          161,
+          0,
+          952
+        ]
+      ],
+      "held_out_physical_seed": 3104,
+      "macro_f1": 0.565152485413639,
+      "parameter_count": 110983,
+      "per_class_recall": {
+        "imperfect_csi": 0.4390625,
+        "literal": 0.46796875,
+        "low_snr": 0.60703125,
+        "mismatch": 1.0,
+        "normal": 0.3453125,
+        "ood": 0.74375,
+        "spatial_correlation": 0.3578125
+      },
+      "source": "new_subset_fold",
+      "stages": [
+        "R1",
+        "R2"
+      ],
+      "subset": "R1_R2",
+      "task_index": 18,
+      "test_records_sha256": "f7c833a65158435e34b627f983bbee63afb253e0f5af1d9265cf4bac31044932",
+      "test_samples": 8960,
+      "train_records_sha256": "37fb03b999a1849c255412ead06c47f66a53f59a29d984383f0026e0a70a7bf4",
+      "train_samples": 35840,
+      "training": {
+        "batch_size": 64,
+        "epochs": 12,
+        "learning_rate": 0.0003,
+        "seed": 5501,
+        "weight_decay": 0.0001
+      }
+    },
+    {
+      "architecture": "tcn_branchwise_subset",
+      "balanced_accuracy": 0.5967633928571429,
+      "coarse_balanced_accuracy": 0.5931423611111111,
+      "coarse_macro_f1": 0.5939714434355484,
+      "confusion_matrix": [
+        [
+          254,
+          136,
+          33,
+          60,
+          645,
+          0,
+          152
+        ],
+        [
+          23,
+          1039,
+          25,
+          83,
+          92,
+          0,
+          18
+        ],
+        [
+          42,
+          131,
+          687,
+          57,
+          203,
+          0,
+          160
+        ],
+        [
+          172,
+          222,
+          40,
+          316,
+          435,
+          0,
+          95
+        ],
+        [
+          117,
+          114,
+          22,
+          52,
+          711,
+          0,
+          264
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1280,
+          0
+        ],
+        [
+          13,
+          23,
+          20,
+          8,
+          156,
+          0,
+          1060
+        ]
+      ],
+      "held_out_physical_seed": 3105,
+      "macro_f1": 0.5813012240338244,
+      "parameter_count": 110983,
+      "per_class_recall": {
+        "imperfect_csi": 0.53671875,
+        "literal": 0.55546875,
+        "low_snr": 0.81171875,
+        "mismatch": 1.0,
+        "normal": 0.1984375,
+        "ood": 0.828125,
+        "spatial_correlation": 0.246875
+      },
+      "source": "new_subset_fold",
+      "stages": [
+        "R1",
+        "R2"
+      ],
+      "subset": "R1_R2",
+      "task_index": 19,
+      "test_records_sha256": "f1cd8d601a8f16a03040a9a56191765521c03e7bfd8d94653d33de0721b36467",
+      "test_samples": 8960,
+      "train_records_sha256": "bc27b9cc76fdf0355e52643771b474a4d61e89a516725ba9439ff92bfd2c8cd9",
+      "train_samples": 35840,
+      "training": {
+        "batch_size": 64,
+        "epochs": 12,
+        "learning_rate": 0.0003,
+        "seed": 5501,
+        "weight_decay": 0.0001
+      }
+    },
+    {
+      "architecture": "tcn_branchwise_subset",
+      "balanced_accuracy": 0.6430803571428572,
+      "coarse_balanced_accuracy": 0.6934895833333333,
+      "coarse_macro_f1": 0.6783482666658317,
+      "confusion_matrix": [
+        [
+          725,
+          66,
+          232,
+          43,
+          167,
+          0,
+          47
+        ],
+        [
+          77,
+          995,
+          149,
+          43,
+          10,
+          0,
+          6
+        ],
+        [
+          132,
+          126,
+          891,
+          7,
+          59,
+          0,
+          65
+        ],
+        [
+          471,
+          119,
+          182,
+          362,
+          99,
+          0,
+          47
+        ],
+        [
+          414,
+          38,
+          232,
+          23,
+          488,
+          0,
+          85
+        ],
+        [
+          0,
+          0,
+          5,
+          0,
+          0,
+          1275,
+          0
+        ],
+        [
+          60,
+          5,
+          119,
+          4,
+          66,
+          0,
+          1026
+        ]
+      ],
+      "held_out_physical_seed": 3101,
+      "macro_f1": 0.6363400652984305,
+      "parameter_count": 110983,
+      "per_class_recall": {
+        "imperfect_csi": 0.69609375,
+        "literal": 0.38125,
+        "low_snr": 0.77734375,
+        "mismatch": 0.99609375,
+        "normal": 0.56640625,
+        "ood": 0.8015625,
+        "spatial_correlation": 0.2828125
+      },
+      "source": "new_subset_fold",
+      "stages": [
+        "R1",
+        "R3"
+      ],
+      "subset": "R1_R3",
+      "task_index": 20,
+      "test_records_sha256": "2a4eb31549265c77621a1d3ad002c36748881898a4bc9670e488baa4809dc731",
+      "test_samples": 8960,
+      "train_records_sha256": "f0bc9d8f38d6419d68fae9c9491454ada719d111eb3011f1d9a49480f1b4c177",
+      "train_samples": 35840,
+      "training": {
+        "batch_size": 64,
+        "epochs": 12,
+        "learning_rate": 0.0003,
+        "seed": 5501,
+        "weight_decay": 0.0001
+      }
+    },
+    {
+      "architecture": "tcn_branchwise_subset",
+      "balanced_accuracy": 0.6071428571428571,
+      "coarse_balanced_accuracy": 0.5872395833333334,
+      "coarse_macro_f1": 0.5830368845749531,
+      "confusion_matrix": [
+        [
+          178,
+          78,
+          66,
+          574,
+          341,
+          0,
+          43
+        ],
+        [
+          18,
+          874,
+          23,
+          327,
+          30,
+          0,
+          8
+        ],
+        [
+          62,
+          41,
+          694,
+          249,
+          152,
+          0,
+          82
+        ],
+        [
+          55,
+          59,
+          47,
+          905,
+          185,
+          0,
+          29
+        ],
+        [
+          51,
+          43,
+          53,
+          450,
+          610,
+          0,
+          73
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          1279,
+          0
+        ],
+        [
+          4,
+          7,
+          31,
+          188,
+          149,
+          1,
+          900
+        ]
+      ],
+      "held_out_physical_seed": 3102,
+      "macro_f1": 0.603779875253183,
+      "parameter_count": 110983,
+      "per_class_recall": {
+        "imperfect_csi": 0.5421875,
+        "literal": 0.4765625,
+        "low_snr": 0.6828125,
+        "mismatch": 0.99921875,
+        "normal": 0.1390625,
+        "ood": 0.703125,
+        "spatial_correlation": 0.70703125
+      },
+      "source": "new_subset_fold",
+      "stages": [
+        "R1",
+        "R3"
+      ],
+      "subset": "R1_R3",
+      "task_index": 21,
+      "test_records_sha256": "e061b2ee4b0f1e29e65439a939e0ebd961772ae47f2fa20363ac048305b0da67",
+      "test_samples": 8960,
+      "train_records_sha256": "7c7a13a2e508909e98ca66c3994adc27ddaee1090877c3ae7098ad33252bb62b",
+      "train_samples": 35840,
+      "training": {
+        "batch_size": 64,
+        "epochs": 12,
+        "learning_rate": 0.0003,
+        "seed": 5501,
+        "weight_decay": 0.0001
+      }
+    },
+    {
+      "architecture": "tcn_branchwise_subset",
+      "balanced_accuracy": 0.6690848214285714,
+      "coarse_balanced_accuracy": 0.657638888888889,
+      "coarse_macro_f1": 0.6633773932665874,
+      "confusion_matrix": [
+        [
+          420,
+          67,
+          217,
+          261,
+          239,
+          0,
+          76
+        ],
+        [
+          21,
+          1053,
+          45,
+          144,
+          10,
+          0,
+          7
+        ],
+        [
+          74,
+          80,
+          902,
+          92,
+          69,
+          0,
+          63
+        ],
+        [
+          187,
+          84,
+          115,
+          736,
+          113,
+          0,
+          45
+        ],
+        [
+          195,
+          42,
+          179,
+          155,
+          579,
+          0,
+          130
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1280,
+          0
+        ],
+        [
+          19,
+          12,
+          81,
+          92,
+          51,
+          0,
+          1025
+        ]
+      ],
+      "held_out_physical_seed": 3103,
+      "macro_f1": 0.662219498598285,
+      "parameter_count": 110983,
+      "per_class_recall": {
+        "imperfect_csi": 0.7046875,
+        "literal": 0.45234375,
+        "low_snr": 0.82265625,
+        "mismatch": 1.0,
+        "normal": 0.328125,
+        "ood": 0.80078125,
+        "spatial_correlation": 0.575
+      },
+      "source": "new_subset_fold",
+      "stages": [
+        "R1",
+        "R3"
+      ],
+      "subset": "R1_R3",
+      "task_index": 22,
+      "test_records_sha256": "f2b3b7f9cadc8e826f58e45899b1b3a8022f17c6e5ea2b0a67f9cd9d2e8141e0",
+      "test_samples": 8960,
+      "train_records_sha256": "891c0b7bfb1bcfd7ec58ce6a1ab38a9aa8d41f77c45afa4a73d546fb61376942",
+      "train_samples": 35840,
+      "training": {
+        "batch_size": 64,
+        "epochs": 12,
+        "learning_rate": 0.0003,
+        "seed": 5501,
+        "weight_decay": 0.0001
+      }
+    },
+    {
+      "architecture": "tcn_branchwise_subset",
+      "balanced_accuracy": 0.6200892857142858,
+      "coarse_balanced_accuracy": 0.645920138888889,
+      "coarse_macro_f1": 0.6437595968824871,
+      "confusion_matrix": [
+        [
+          510,
+          144,
+          60,
+          106,
+          324,
+          0,
+          136
+        ],
+        [
+          92,
+          896,
+          52,
+          171,
+          49,
+          0,
+          20
+        ],
+        [
+          211,
+          140,
+          626,
+          32,
+          114,
+          0,
+          157
+        ],
+        [
+          295,
+          159,
+          53,
+          477,
+          179,
+          0,
+          117
+        ],
+        [
+          179,
+          126,
+          52,
+          40,
+          685,
+          0,
+          198
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          1279,
+          0
+        ],
+        [
+          20,
+          86,
+          28,
+          3,
+          60,
+          0,
+          1083
+        ]
+      ],
+      "held_out_physical_seed": 3104,
+      "macro_f1": 0.6134765076447003,
+      "parameter_count": 110983,
+      "per_class_recall": {
+        "imperfect_csi": 0.4890625,
+        "literal": 0.53515625,
+        "low_snr": 0.7,
+        "mismatch": 0.99921875,
+        "normal": 0.3984375,
+        "ood": 0.84609375,
+        "spatial_correlation": 0.37265625
+      },
+      "source": "new_subset_fold",
+      "stages": [
+        "R1",
+        "R3"
+      ],
+      "subset": "R1_R3",
+      "task_index": 23,
+      "test_records_sha256": "f7c833a65158435e34b627f983bbee63afb253e0f5af1d9265cf4bac31044932",
+      "test_samples": 8960,
+      "train_records_sha256": "37fb03b999a1849c255412ead06c47f66a53f59a29d984383f0026e0a70a7bf4",
+      "train_samples": 35840,
+      "training": {
+        "batch_size": 64,
+        "epochs": 12,
+        "learning_rate": 0.0003,
+        "seed": 5501,
+        "weight_decay": 0.0001
+      }
+    },
+    {
+      "architecture": "tcn_branchwise_subset",
+      "balanced_accuracy": 0.6370535714285713,
+      "coarse_balanced_accuracy": 0.6727430555555555,
+      "coarse_macro_f1": 0.6696787304706304,
+      "confusion_matrix": [
+        [
+          584,
+          155,
+          38,
+          75,
+          353,
+          0,
+          75
+        ],
+        [
+          66,
+          1035,
+          23,
+          86,
+          60,
+          0,
+          10
+        ],
+        [
+          110,
+          150,
+          647,
+          71,
+          213,
+          0,
+          89
+        ],
+        [
+          340,
+          249,
+          49,
+          335,
+          258,
+          0,
+          49
+        ],
+        [
+          217,
+          117,
+          28,
+          48,
+          748,
+          0,
+          122
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1280,
+          0
+        ],
+        [
+          30,
+          30,
+          6,
+          11,
+          124,
+          0,
+          1079
+        ]
+      ],
+      "held_out_physical_seed": 3105,
+      "macro_f1": 0.6283034479422696,
+      "parameter_count": 110983,
+      "per_class_recall": {
+        "imperfect_csi": 0.50546875,
+        "literal": 0.584375,
+        "low_snr": 0.80859375,
+        "mismatch": 1.0,
+        "normal": 0.45625,
+        "ood": 0.84296875,
+        "spatial_correlation": 0.26171875
+      },
+      "source": "new_subset_fold",
+      "stages": [
+        "R1",
+        "R3"
+      ],
+      "subset": "R1_R3",
+      "task_index": 24,
+      "test_records_sha256": "f1cd8d601a8f16a03040a9a56191765521c03e7bfd8d94653d33de0721b36467",
+      "test_samples": 8960,
+      "train_records_sha256": "bc27b9cc76fdf0355e52643771b474a4d61e89a516725ba9439ff92bfd2c8cd9",
+      "train_samples": 35840,
+      "training": {
+        "batch_size": 64,
+        "epochs": 12,
+        "learning_rate": 0.0003,
+        "seed": 5501,
+        "weight_decay": 0.0001
+      }
+    },
+    {
+      "architecture": "tcn_branchwise_subset",
+      "balanced_accuracy": 0.6530133928571428,
+      "coarse_balanced_accuracy": 0.6987847222222222,
+      "coarse_macro_f1": 0.6796470961230874,
+      "confusion_matrix": [
+        [
+          761,
+          36,
+          262,
+          34,
+          121,
+          0,
+          66
+        ],
+        [
+          148,
+          915,
+          147,
+          47,
+          11,
+          0,
+          12
+        ],
+        [
+          118,
+          35,
+          1034,
+          1,
+          32,
+          0,
+          60
+        ],
+        [
+          517,
+          96,
+          186,
+          358,
+          57,
+          0,
+          66
+        ],
+        [
+          453,
+          28,
+          254,
+          15,
+          389,
+          0,
+          141
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1280,
+          0
+        ],
+        [
+          47,
+          2,
+          91,
+          2,
+          24,
+          0,
+          1114
+        ]
+      ],
+      "held_out_physical_seed": 3101,
+      "macro_f1": 0.6415109763526672,
+      "parameter_count": 118151,
+      "per_class_recall": {
+        "imperfect_csi": 0.8078125,
+        "literal": 0.30390625,
+        "low_snr": 0.71484375,
+        "mismatch": 1.0,
+        "normal": 0.59453125,
+        "ood": 0.8703125,
+        "spatial_correlation": 0.2796875
+      },
+      "source": "new_subset_fold",
+      "stages": [
+        "R2",
+        "R3"
+      ],
+      "subset": "R2_R3",
+      "task_index": 25,
+      "test_records_sha256": "2a4eb31549265c77621a1d3ad002c36748881898a4bc9670e488baa4809dc731",
+      "test_samples": 8960,
+      "train_records_sha256": "f0bc9d8f38d6419d68fae9c9491454ada719d111eb3011f1d9a49480f1b4c177",
+      "train_samples": 35840,
+      "training": {
+        "batch_size": 64,
+        "epochs": 12,
+        "learning_rate": 0.0003,
+        "seed": 5501,
+        "weight_decay": 0.0001
+      }
+    },
+    {
+      "architecture": "tcn_branchwise_subset",
+      "balanced_accuracy": 0.6556919642857143,
+      "coarse_balanced_accuracy": 0.6078993055555556,
+      "coarse_macro_f1": 0.6064667982163755,
+      "confusion_matrix": [
+        [
+          212,
+          72,
+          114,
+          457,
+          370,
+          0,
+          55
+        ],
+        [
+          18,
+          1026,
+          16,
+          176,
+          38,
+          0,
+          6
+        ],
+        [
+          63,
+          52,
+          860,
+          125,
+          136,
+          0,
+          44
+        ],
+        [
+          70,
+          68,
+          40,
+          850,
+          205,
+          0,
+          47
+        ],
+        [
+          66,
+          31,
+          62,
+          338,
+          701,
+          0,
+          82
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1280,
+          0
+        ],
+        [
+          8,
+          8,
+          30,
+          143,
+          145,
+          0,
+          946
+        ]
+      ],
+      "held_out_physical_seed": 3102,
+      "macro_f1": 0.6476000350994375,
+      "parameter_count": 118151,
+      "per_class_recall": {
+        "imperfect_csi": 0.671875,
+        "literal": 0.54765625,
+        "low_snr": 0.8015625,
+        "mismatch": 1.0,
+        "normal": 0.165625,
+        "ood": 0.7390625,
+        "spatial_correlation": 0.6640625
+      },
+      "source": "new_subset_fold",
+      "stages": [
+        "R2",
+        "R3"
+      ],
+      "subset": "R2_R3",
+      "task_index": 26,
+      "test_records_sha256": "e061b2ee4b0f1e29e65439a939e0ebd961772ae47f2fa20363ac048305b0da67",
+      "test_samples": 8960,
+      "train_records_sha256": "7c7a13a2e508909e98ca66c3994adc27ddaee1090877c3ae7098ad33252bb62b",
+      "train_samples": 35840,
+      "training": {
+        "batch_size": 64,
+        "epochs": 12,
+        "learning_rate": 0.0003,
+        "seed": 5501,
+        "weight_decay": 0.0001
+      }
+    },
+    {
+      "architecture": "tcn_branchwise_subset",
+      "balanced_accuracy": 0.6989955357142857,
+      "coarse_balanced_accuracy": 0.7002604166666666,
+      "coarse_macro_f1": 0.7010423303929162,
+      "confusion_matrix": [
+        [
+          590,
+          69,
+          67,
+          230,
+          242,
+          0,
+          82
+        ],
+        [
+          25,
+          1052,
+          29,
+          155,
+          11,
+          0,
+          8
+        ],
+        [
+          112,
+          40,
+          891,
+          105,
+          87,
+          0,
+          45
+        ],
+        [
+          256,
+          78,
+          35,
+          721,
+          142,
+          0,
+          48
+        ],
+        [
+          245,
+          37,
+          60,
+          166,
+          647,
+          0,
+          125
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1280,
+          0
+        ],
+        [
+          21,
+          5,
+          30,
+          85,
+          57,
+          0,
+          1082
+        ]
+      ],
+      "held_out_physical_seed": 3103,
+      "macro_f1": 0.6991773938679684,
+      "parameter_count": 118151,
+      "per_class_recall": {
+        "imperfect_csi": 0.69609375,
+        "literal": 0.50546875,
+        "low_snr": 0.821875,
+        "mismatch": 1.0,
+        "normal": 0.4609375,
+        "ood": 0.8453125,
+        "spatial_correlation": 0.56328125
+      },
+      "source": "new_subset_fold",
+      "stages": [
+        "R2",
+        "R3"
+      ],
+      "subset": "R2_R3",
+      "task_index": 27,
+      "test_records_sha256": "f2b3b7f9cadc8e826f58e45899b1b3a8022f17c6e5ea2b0a67f9cd9d2e8141e0",
+      "test_samples": 8960,
+      "train_records_sha256": "891c0b7bfb1bcfd7ec58ce6a1ab38a9aa8d41f77c45afa4a73d546fb61376942",
+      "train_samples": 35840,
+      "training": {
+        "batch_size": 64,
+        "epochs": 12,
+        "learning_rate": 0.0003,
+        "seed": 5501,
+        "weight_decay": 0.0001
+      }
+    },
+    {
+      "architecture": "tcn_branchwise_subset",
+      "balanced_accuracy": 0.6119419642857143,
+      "coarse_balanced_accuracy": 0.6302083333333334,
+      "coarse_macro_f1": 0.6296087673368681,
+      "confusion_matrix": [
+        [
+          446,
+          123,
+          138,
+          87,
+          408,
+          0,
+          78
+        ],
+        [
+          106,
+          764,
+          78,
+          218,
+          103,
+          0,
+          11
+        ],
+        [
+          204,
+          101,
+          686,
+          45,
+          156,
+          5,
+          83
+        ],
+        [
+          248,
+          137,
+          89,
+          481,
+          265,
+          0,
+          60
+        ],
+        [
+          167,
+          110,
+          77,
+          26,
+          796,
+          0,
+          104
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1280,
+          0
+        ],
+        [
+          24,
+          61,
+          42,
+          10,
+          113,
+          0,
+          1030
+        ]
+      ],
+      "held_out_physical_seed": 3104,
+      "macro_f1": 0.6089106609825553,
+      "parameter_count": 118151,
+      "per_class_recall": {
+        "imperfect_csi": 0.5359375,
+        "literal": 0.621875,
+        "low_snr": 0.596875,
+        "mismatch": 1.0,
+        "normal": 0.3484375,
+        "ood": 0.8046875,
+        "spatial_correlation": 0.37578125
+      },
+      "source": "new_subset_fold",
+      "stages": [
+        "R2",
+        "R3"
+      ],
+      "subset": "R2_R3",
+      "task_index": 28,
+      "test_records_sha256": "f7c833a65158435e34b627f983bbee63afb253e0f5af1d9265cf4bac31044932",
+      "test_samples": 8960,
+      "train_records_sha256": "37fb03b999a1849c255412ead06c47f66a53f59a29d984383f0026e0a70a7bf4",
+      "train_samples": 35840,
+      "training": {
+        "batch_size": 64,
+        "epochs": 12,
+        "learning_rate": 0.0003,
+        "seed": 5501,
+        "weight_decay": 0.0001
+      }
+    },
+    {
+      "architecture": "tcn_branchwise_subset",
+      "balanced_accuracy": 0.6439732142857144,
+      "coarse_balanced_accuracy": 0.6567708333333333,
+      "coarse_macro_f1": 0.6578157133445336,
+      "confusion_matrix": [
+        [
+          476,
+          104,
+          145,
+          63,
+          433,
+          0,
+          59
+        ],
+        [
+          56,
+          997,
+          53,
+          89,
+          73,
+          0,
+          12
+        ],
+        [
+          104,
+          115,
+          826,
+          30,
+          151,
+          0,
+          54
+        ],
+        [
+          303,
+          199,
+          127,
+          301,
+          307,
+          0,
+          43
+        ],
+        [
+          170,
+          66,
+          82,
+          31,
+          825,
+          0,
+          106
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1280,
+          0
+        ],
+        [
+          38,
+          4,
+          43,
+          5,
+          125,
+          0,
+          1065
+        ]
+      ],
+      "held_out_physical_seed": 3105,
+      "macro_f1": 0.632034998747541,
+      "parameter_count": 118151,
+      "per_class_recall": {
+        "imperfect_csi": 0.6453125,
+        "literal": 0.64453125,
+        "low_snr": 0.77890625,
+        "mismatch": 1.0,
+        "normal": 0.371875,
+        "ood": 0.83203125,
+        "spatial_correlation": 0.23515625
+      },
+      "source": "new_subset_fold",
+      "stages": [
+        "R2",
+        "R3"
+      ],
+      "subset": "R2_R3",
+      "task_index": 29,
+      "test_records_sha256": "f1cd8d601a8f16a03040a9a56191765521c03e7bfd8d94653d33de0721b36467",
+      "test_samples": 8960,
+      "train_records_sha256": "bc27b9cc76fdf0355e52643771b474a4d61e89a516725ba9439ff92bfd2c8cd9",
+      "train_samples": 35840,
+      "training": {
+        "batch_size": 64,
+        "epochs": 12,
+        "learning_rate": 0.0003,
+        "seed": 5501,
+        "weight_decay": 0.0001
+      }
+    },
+    {
+      "architecture": "tcn_branchwise_subset",
+      "balanced_accuracy": 0.66796875,
+      "coarse_balanced_accuracy": 0.6701388888888888,
+      "coarse_macro_f1": 0.6576710225845308,
+      "confusion_matrix": [
+        [
+          657,
+          21,
+          264,
+          175,
+          77,
+          0,
+          86
+        ],
+        [
+          11,
+          1238,
+          19,
+          9,
+          1,
+          0,
+          2
+        ],
+        [
+          89,
+          12,
+          1038,
+          75,
+          8,
+          1,
+          57
+        ],
+        [
+          228,
+          5,
+          122,
+          867,
+          27,
+          0,
+          31
+        ],
+        [
+          557,
+          15,
+          281,
+          167,
+          110,
+          0,
+          150
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1280,
+          0
+        ],
+        [
+          114,
+          3,
+          214,
+          125,
+          29,
+          0,
+          795
+        ]
+      ],
+      "held_out_physical_seed": 3101,
+      "macro_f1": 0.6432472668803071,
+      "parameter_count": 162119,
+      "per_class_recall": {
+        "imperfect_csi": 0.8109375,
+        "literal": 0.0859375,
+        "low_snr": 0.9671875,
+        "mismatch": 1.0,
+        "normal": 0.51328125,
+        "ood": 0.62109375,
+        "spatial_correlation": 0.67734375
+      },
+      "source": "new_subset_fold",
+      "stages": [
+        "R0",
+        "R1",
+        "R2"
+      ],
+      "subset": "R0_R1_R2",
+      "task_index": 30,
+      "test_records_sha256": "2a4eb31549265c77621a1d3ad002c36748881898a4bc9670e488baa4809dc731",
+      "test_samples": 8960,
+      "train_records_sha256": "f0bc9d8f38d6419d68fae9c9491454ada719d111eb3011f1d9a49480f1b4c177",
+      "train_samples": 35840,
+      "training": {
+        "batch_size": 64,
+        "epochs": 12,
+        "learning_rate": 0.0003,
+        "seed": 5501,
+        "weight_decay": 0.0001
+      }
+    },
+    {
+      "architecture": "tcn_branchwise_subset",
+      "balanced_accuracy": 0.618638392857143,
+      "coarse_balanced_accuracy": 0.556857638888889,
+      "coarse_macro_f1": 0.5445794069775802,
+      "confusion_matrix": [
+        [
+          131,
+          38,
+          181,
+          717,
+          152,
+          0,
+          61
+        ],
+        [
+          2,
+          1262,
+          13,
+          1,
+          2,
+          0,
+          0
+        ],
+        [
+          6,
+          37,
+          891,
+          282,
+          14,
+          0,
+          50
+        ],
+        [
+          11,
+          26,
+          76,
+          1142,
+          17,
+          0,
+          8
+        ],
+        [
+          70,
+          30,
+          190,
+          685,
+          202,
+          0,
+          103
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1280,
+          0
+        ],
+        [
+          9,
+          12,
+          158,
+          394,
+          72,
+          0,
+          635
+        ]
+      ],
+      "held_out_physical_seed": 3102,
+      "macro_f1": 0.5838074464782567,
+      "parameter_count": 162119,
+      "per_class_recall": {
+        "imperfect_csi": 0.69609375,
+        "literal": 0.1578125,
+        "low_snr": 0.9859375,
+        "mismatch": 1.0,
+        "normal": 0.10234375,
+        "ood": 0.49609375,
+        "spatial_correlation": 0.8921875
+      },
+      "source": "new_subset_fold",
+      "stages": [
+        "R0",
+        "R1",
+        "R2"
+      ],
+      "subset": "R0_R1_R2",
+      "task_index": 31,
+      "test_records_sha256": "e061b2ee4b0f1e29e65439a939e0ebd961772ae47f2fa20363ac048305b0da67",
+      "test_samples": 8960,
+      "train_records_sha256": "7c7a13a2e508909e98ca66c3994adc27ddaee1090877c3ae7098ad33252bb62b",
+      "train_samples": 35840,
+      "training": {
+        "batch_size": 64,
+        "epochs": 12,
+        "learning_rate": 0.0003,
+        "seed": 5501,
+        "weight_decay": 0.0001
+      }
+    },
+    {
+      "architecture": "tcn_branchwise_subset",
+      "balanced_accuracy": 0.6723214285714285,
+      "coarse_balanced_accuracy": 0.6295138888888888,
+      "coarse_macro_f1": 0.6341741539546896,
+      "confusion_matrix": [
+        [
+          337,
+          2,
+          163,
+          427,
+          287,
+          0,
+          64
+        ],
+        [
+          1,
+          1258,
+          7,
+          13,
+          1,
+          0,
+          0
+        ],
+        [
+          44,
+          6,
+          930,
+          202,
+          48,
+          0,
+          50
+        ],
+        [
+          69,
+          5,
+          88,
+          1016,
+          77,
+          0,
+          25
+        ],
+        [
+          239,
+          2,
+          171,
+          385,
+          379,
+          0,
+          104
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1280,
+          0
+        ],
+        [
+          14,
+          1,
+          104,
+          208,
+          129,
+          0,
+          824
+        ]
+      ],
+      "held_out_physical_seed": 3103,
+      "macro_f1": 0.6607092962547448,
+      "parameter_count": 162119,
+      "per_class_recall": {
+        "imperfect_csi": 0.7265625,
+        "literal": 0.29609375,
+        "low_snr": 0.9828125,
+        "mismatch": 1.0,
+        "normal": 0.26328125,
+        "ood": 0.64375,
+        "spatial_correlation": 0.79375
+      },
+      "source": "new_subset_fold",
+      "stages": [
+        "R0",
+        "R1",
+        "R2"
+      ],
+      "subset": "R0_R1_R2",
+      "task_index": 32,
+      "test_records_sha256": "f2b3b7f9cadc8e826f58e45899b1b3a8022f17c6e5ea2b0a67f9cd9d2e8141e0",
+      "test_samples": 8960,
+      "train_records_sha256": "891c0b7bfb1bcfd7ec58ce6a1ab38a9aa8d41f77c45afa4a73d546fb61376942",
+      "train_samples": 35840,
+      "training": {
+        "batch_size": 64,
+        "epochs": 12,
+        "learning_rate": 0.0003,
+        "seed": 5501,
+        "weight_decay": 0.0001
+      }
+    },
+    {
+      "architecture": "tcn_branchwise_subset",
+      "balanced_accuracy": 0.6393973214285714,
+      "coarse_balanced_accuracy": 0.5841145833333333,
+      "coarse_macro_f1": 0.5799685801863151,
+      "confusion_matrix": [
+        [
+          186,
+          98,
+          119,
+          52,
+          587,
+          0,
+          238
+        ],
+        [
+          7,
+          1233,
+          7,
+          15,
+          6,
+          0,
+          12
+        ],
+        [
+          122,
+          63,
+          531,
+          14,
+          219,
+          11,
+          320
+        ],
+        [
+          70,
+          4,
+          80,
+          853,
+          187,
+          0,
+          86
+        ],
+        [
+          77,
+          72,
+          110,
+          45,
+          608,
+          0,
+          368
+        ],
+        [
+          0,
+          3,
+          0,
+          0,
+          0,
+          1277,
+          0
+        ],
+        [
+          9,
+          31,
+          117,
+          5,
+          77,
+          0,
+          1041
+        ]
+      ],
+      "held_out_physical_seed": 3104,
+      "macro_f1": 0.6217496733055258,
+      "parameter_count": 162119,
+      "per_class_recall": {
+        "imperfect_csi": 0.41484375,
+        "literal": 0.475,
+        "low_snr": 0.96328125,
+        "mismatch": 0.99765625,
+        "normal": 0.1453125,
+        "ood": 0.81328125,
+        "spatial_correlation": 0.66640625
+      },
+      "source": "new_subset_fold",
+      "stages": [
+        "R0",
+        "R1",
+        "R2"
+      ],
+      "subset": "R0_R1_R2",
+      "task_index": 33,
+      "test_records_sha256": "f7c833a65158435e34b627f983bbee63afb253e0f5af1d9265cf4bac31044932",
+      "test_samples": 8960,
+      "train_records_sha256": "37fb03b999a1849c255412ead06c47f66a53f59a29d984383f0026e0a70a7bf4",
+      "train_samples": 35840,
+      "training": {
+        "batch_size": 64,
+        "epochs": 12,
+        "learning_rate": 0.0003,
+        "seed": 5501,
+        "weight_decay": 0.0001
+      }
+    },
+    {
+      "architecture": "tcn_branchwise_subset",
+      "balanced_accuracy": 0.6707589285714286,
+      "coarse_balanced_accuracy": 0.6353298611111112,
+      "coarse_macro_f1": 0.6399506909539089,
+      "confusion_matrix": [
+        [
+          371,
+          114,
+          51,
+          27,
+          614,
+          0,
+          103
+        ],
+        [
+          0,
+          1271,
+          5,
+          0,
+          2,
+          0,
+          2
+        ],
+        [
+          94,
+          98,
+          707,
+          10,
+          236,
+          0,
+          135
+        ],
+        [
+          196,
+          43,
+          36,
+          684,
+          274,
+          0,
+          47
+        ],
+        [
+          196,
+          98,
+          50,
+          20,
+          749,
+          0,
+          167
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1280,
+          0
+        ],
+        [
+          34,
+          61,
+          21,
+          8,
+          208,
+          0,
+          948
+        ]
+      ],
+      "held_out_physical_seed": 3105,
+      "macro_f1": 0.6690546406330744,
+      "parameter_count": 162119,
+      "per_class_recall": {
+        "imperfect_csi": 0.55234375,
+        "literal": 0.58515625,
+        "low_snr": 0.99296875,
+        "mismatch": 1.0,
+        "normal": 0.28984375,
+        "ood": 0.740625,
+        "spatial_correlation": 0.534375
+      },
+      "source": "new_subset_fold",
+      "stages": [
+        "R0",
+        "R1",
+        "R2"
+      ],
+      "subset": "R0_R1_R2",
+      "task_index": 34,
+      "test_records_sha256": "f1cd8d601a8f16a03040a9a56191765521c03e7bfd8d94653d33de0721b36467",
+      "test_samples": 8960,
+      "train_records_sha256": "bc27b9cc76fdf0355e52643771b474a4d61e89a516725ba9439ff92bfd2c8cd9",
+      "train_samples": 35840,
+      "training": {
+        "batch_size": 64,
+        "epochs": 12,
+        "learning_rate": 0.0003,
+        "seed": 5501,
+        "weight_decay": 0.0001
+      }
+    },
+    {
+      "architecture": "tcn_branchwise_subset",
+      "balanced_accuracy": 0.7003348214285714,
+      "coarse_balanced_accuracy": 0.6819444444444445,
+      "coarse_macro_f1": 0.6814629011947065,
+      "confusion_matrix": [
+        [
+          589,
+          14,
+          235,
+          184,
+          194,
+          0,
+          64
+        ],
+        [
+          27,
+          1218,
+          20,
+          8,
+          3,
+          0,
+          4
+        ],
+        [
+          127,
+          19,
+          875,
+          116,
+          70,
+          0,
+          73
+        ],
+        [
+          226,
+          4,
+          100,
+          854,
+          75,
+          0,
+          21
+        ],
+        [
+          293,
+          13,
+          207,
+          168,
+          513,
+          0,
+          86
+        ],
+        [
+          0,
+          0,
+          5,
+          16,
+          0,
+          1259,
+          0
+        ],
+        [
+          41,
+          3,
+          144,
+          75,
+          50,
+          0,
+          967
+        ]
+      ],
+      "held_out_physical_seed": 3101,
+      "macro_f1": 0.698626933506553,
+      "parameter_count": 162119,
+      "per_class_recall": {
+        "imperfect_csi": 0.68359375,
+        "literal": 0.40078125,
+        "low_snr": 0.9515625,
+        "mismatch": 0.98359375,
+        "normal": 0.46015625,
+        "ood": 0.75546875,
+        "spatial_correlation": 0.6671875
+      },
+      "source": "new_subset_fold",
+      "stages": [
+        "R0",
+        "R1",
+        "R3"
+      ],
+      "subset": "R0_R1_R3",
+      "task_index": 35,
+      "test_records_sha256": "2a4eb31549265c77621a1d3ad002c36748881898a4bc9670e488baa4809dc731",
+      "test_samples": 8960,
+      "train_records_sha256": "f0bc9d8f38d6419d68fae9c9491454ada719d111eb3011f1d9a49480f1b4c177",
+      "train_samples": 35840,
+      "training": {
+        "batch_size": 64,
+        "epochs": 12,
+        "learning_rate": 0.0003,
+        "seed": 5501,
+        "weight_decay": 0.0001
+      }
+    },
+    {
+      "architecture": "tcn_branchwise_subset",
+      "balanced_accuracy": 0.6476562499999999,
+      "coarse_balanced_accuracy": 0.5850694444444445,
+      "coarse_macro_f1": 0.5818997652224857,
+      "confusion_matrix": [
+        [
+          186,
+          29,
+          202,
+          712,
+          119,
+          0,
+          32
+        ],
+        [
+          2,
+          1259,
+          13,
+          3,
+          1,
+          0,
+          2
+        ],
+        [
+          15,
+          37,
+          856,
+          310,
+          27,
+          0,
+          35
+        ],
+        [
+          23,
+          21,
+          77,
+          1138,
+          18,
+          0,
+          3
+        ],
+        [
+          90,
+          15,
+          198,
+          639,
+          284,
+          0,
+          54
+        ],
+        [
+          0,
+          0,
+          14,
+          5,
+          0,
+          1261,
+          0
+        ],
+        [
+          17,
+          6,
+          156,
+          232,
+          50,
+          0,
+          819
+        ]
+      ],
+      "held_out_physical_seed": 3102,
+      "macro_f1": 0.6241645388411557,
+      "parameter_count": 162119,
+      "per_class_recall": {
+        "imperfect_csi": 0.66875,
+        "literal": 0.221875,
+        "low_snr": 0.98359375,
+        "mismatch": 0.98515625,
+        "normal": 0.1453125,
+        "ood": 0.63984375,
+        "spatial_correlation": 0.8890625
+      },
+      "source": "new_subset_fold",
+      "stages": [
+        "R0",
+        "R1",
+        "R3"
+      ],
+      "subset": "R0_R1_R3",
+      "task_index": 36,
+      "test_records_sha256": "e061b2ee4b0f1e29e65439a939e0ebd961772ae47f2fa20363ac048305b0da67",
+      "test_samples": 8960,
+      "train_records_sha256": "7c7a13a2e508909e98ca66c3994adc27ddaee1090877c3ae7098ad33252bb62b",
+      "train_samples": 35840,
+      "training": {
+        "batch_size": 64,
+        "epochs": 12,
+        "learning_rate": 0.0003,
+        "seed": 5501,
+        "weight_decay": 0.0001
+      }
+    },
+    {
+      "architecture": "tcn_branchwise_subset",
+      "balanced_accuracy": 0.7179687499999999,
+      "coarse_balanced_accuracy": 0.693923611111111,
+      "coarse_macro_f1": 0.6991769140851171,
+      "confusion_matrix": [
+        [
+          546,
+          1,
+          136,
+          371,
+          176,
+          0,
+          50
+        ],
+        [
+          2,
+          1271,
+          3,
+          3,
+          1,
+          0,
+          0
+        ],
+        [
+          89,
+          4,
+          890,
+          207,
+          58,
+          0,
+          32
+        ],
+        [
+          167,
+          9,
+          80,
+          954,
+          54,
+          0,
+          16
+        ],
+        [
+          247,
+          1,
+          133,
+          294,
+          512,
+          0,
+          93
+        ],
+        [
+          0,
+          0,
+          0,
+          2,
+          0,
+          1278,
+          0
+        ],
+        [
+          24,
+          0,
+          56,
+          148,
+          70,
+          0,
+          982
+        ]
+      ],
+      "held_out_physical_seed": 3103,
+      "macro_f1": 0.715168945502109,
+      "parameter_count": 162119,
+      "per_class_recall": {
+        "imperfect_csi": 0.6953125,
+        "literal": 0.4,
+        "low_snr": 0.99296875,
+        "mismatch": 0.9984375,
+        "normal": 0.4265625,
+        "ood": 0.7671875,
+        "spatial_correlation": 0.7453125
+      },
+      "source": "new_subset_fold",
+      "stages": [
+        "R0",
+        "R1",
+        "R3"
+      ],
+      "subset": "R0_R1_R3",
+      "task_index": 37,
+      "test_records_sha256": "f2b3b7f9cadc8e826f58e45899b1b3a8022f17c6e5ea2b0a67f9cd9d2e8141e0",
+      "test_samples": 8960,
+      "train_records_sha256": "891c0b7bfb1bcfd7ec58ce6a1ab38a9aa8d41f77c45afa4a73d546fb61376942",
+      "train_samples": 35840,
+      "training": {
+        "batch_size": 64,
+        "epochs": 12,
+        "learning_rate": 0.0003,
+        "seed": 5501,
+        "weight_decay": 0.0001
+      }
+    },
+    {
+      "architecture": "tcn_branchwise_subset",
+      "balanced_accuracy": 0.69296875,
+      "coarse_balanced_accuracy": 0.65625,
+      "coarse_macro_f1": 0.6617128201210503,
+      "confusion_matrix": [
+        [
+          425,
+          137,
+          134,
+          61,
+          365,
+          1,
+          157
+        ],
+        [
+          4,
+          1257,
+          1,
+          8,
+          5,
+          0,
+          5
+        ],
+        [
+          191,
+          130,
+          568,
+          31,
+          144,
+          0,
+          216
+        ],
+        [
+          151,
+          17,
+          62,
+          886,
+          109,
+          0,
+          55
+        ],
+        [
+          138,
+          92,
+          110,
+          36,
+          714,
+          0,
+          190
+        ],
+        [
+          0,
+          6,
+          0,
+          0,
+          0,
+          1274,
+          0
+        ],
+        [
+          5,
+          25,
+          99,
+          4,
+          62,
+          0,
+          1085
+        ]
+      ],
+      "held_out_physical_seed": 3104,
+      "macro_f1": 0.6814738304201239,
+      "parameter_count": 162119,
+      "per_class_recall": {
+        "imperfect_csi": 0.44375,
+        "literal": 0.5578125,
+        "low_snr": 0.98203125,
+        "mismatch": 0.9953125,
+        "normal": 0.33203125,
+        "ood": 0.84765625,
+        "spatial_correlation": 0.6921875
+      },
+      "source": "new_subset_fold",
+      "stages": [
+        "R0",
+        "R1",
+        "R3"
+      ],
+      "subset": "R0_R1_R3",
+      "task_index": 38,
+      "test_records_sha256": "f7c833a65158435e34b627f983bbee63afb253e0f5af1d9265cf4bac31044932",
+      "test_samples": 8960,
+      "train_records_sha256": "37fb03b999a1849c255412ead06c47f66a53f59a29d984383f0026e0a70a7bf4",
+      "train_samples": 35840,
+      "training": {
+        "batch_size": 64,
+        "epochs": 12,
+        "learning_rate": 0.0003,
+        "seed": 5501,
+        "weight_decay": 0.0001
+      }
+    },
+    {
+      "architecture": "tcn_branchwise_subset",
+      "balanced_accuracy": 0.7074776785714285,
+      "coarse_balanced_accuracy": 0.6561631944444445,
+      "coarse_macro_f1": 0.6636487973392912,
+      "confusion_matrix": [
+        [
+          400,
+          121,
+          45,
+          19,
+          607,
+          0,
+          88
+        ],
+        [
+          0,
+          1276,
+          0,
+          0,
+          4,
+          0,
+          0
+        ],
+        [
+          91,
+          115,
+          700,
+          4,
+          274,
+          0,
+          96
+        ],
+        [
+          187,
+          45,
+          20,
+          643,
+          331,
+          0,
+          54
+        ],
+        [
+          95,
+          90,
+          30,
+          5,
+          924,
+          0,
+          136
+        ],
+        [
+          0,
+          6,
+          0,
+          0,
+          0,
+          1274,
+          0
+        ],
+        [
+          17,
+          35,
+          4,
+          2,
+          100,
+          0,
+          1122
+        ]
+      ],
+      "held_out_physical_seed": 3105,
+      "macro_f1": 0.701313516180621,
+      "parameter_count": 162119,
+      "per_class_recall": {
+        "imperfect_csi": 0.546875,
+        "literal": 0.721875,
+        "low_snr": 0.996875,
+        "mismatch": 0.9953125,
+        "normal": 0.3125,
+        "ood": 0.8765625,
+        "spatial_correlation": 0.50234375
+      },
+      "source": "new_subset_fold",
+      "stages": [
+        "R0",
+        "R1",
+        "R3"
+      ],
+      "subset": "R0_R1_R3",
+      "task_index": 39,
+      "test_records_sha256": "f1cd8d601a8f16a03040a9a56191765521c03e7bfd8d94653d33de0721b36467",
+      "test_samples": 8960,
+      "train_records_sha256": "bc27b9cc76fdf0355e52643771b474a4d61e89a516725ba9439ff92bfd2c8cd9",
+      "train_samples": 35840,
+      "training": {
+        "batch_size": 64,
+        "epochs": 12,
+        "learning_rate": 0.0003,
+        "seed": 5501,
+        "weight_decay": 0.0001
+      }
+    },
+    {
+      "architecture": "tcn_branchwise_subset",
+      "balanced_accuracy": 0.7244419642857143,
+      "coarse_balanced_accuracy": 0.7120659722222222,
+      "coarse_macro_f1": 0.70885983406472,
+      "confusion_matrix": [
+        [
+          650,
+          64,
+          168,
+          144,
+          180,
+          0,
+          74
+        ],
+        [
+          8,
+          1255,
+          15,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          141,
+          15,
+          913,
+          86,
+          45,
+          0,
+          80
+        ],
+        [
+          254,
+          46,
+          59,
+          832,
+          57,
+          0,
+          32
+        ],
+        [
+          312,
+          43,
+          137,
+          135,
+          518,
+          0,
+          135
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1280,
+          0
+        ],
+        [
+          36,
+          13,
+          72,
+          60,
+          56,
+          0,
+          1043
+        ]
+      ],
+      "held_out_physical_seed": 3101,
+      "macro_f1": 0.7184197766893413,
+      "parameter_count": 169287,
+      "per_class_recall": {
+        "imperfect_csi": 0.71328125,
+        "literal": 0.4046875,
+        "low_snr": 0.98046875,
+        "mismatch": 1.0,
+        "normal": 0.5078125,
+        "ood": 0.81484375,
+        "spatial_correlation": 0.65
+      },
+      "source": "new_subset_fold",
+      "stages": [
+        "R0",
+        "R2",
+        "R3"
+      ],
+      "subset": "R0_R2_R3",
+      "task_index": 40,
+      "test_records_sha256": "2a4eb31549265c77621a1d3ad002c36748881898a4bc9670e488baa4809dc731",
+      "test_samples": 8960,
+      "train_records_sha256": "f0bc9d8f38d6419d68fae9c9491454ada719d111eb3011f1d9a49480f1b4c177",
+      "train_samples": 35840,
+      "training": {
+        "batch_size": 64,
+        "epochs": 12,
+        "learning_rate": 0.0003,
+        "seed": 5501,
+        "weight_decay": 0.0001
+      }
+    },
+    {
+      "architecture": "tcn_branchwise_subset",
+      "balanced_accuracy": 0.6578125,
+      "coarse_balanced_accuracy": 0.5978298611111111,
+      "coarse_macro_f1": 0.6000779748017712,
+      "confusion_matrix": [
+        [
+          241,
+          57,
+          57,
+          749,
+          154,
+          0,
+          22
+        ],
+        [
+          4,
+          1267,
+          2,
+          6,
+          1,
+          0,
+          0
+        ],
+        [
+          69,
+          45,
+          795,
+          280,
+          59,
+          0,
+          32
+        ],
+        [
+          36,
+          27,
+          18,
+          1173,
+          21,
+          0,
+          5
+        ],
+        [
+          102,
+          40,
+          48,
+          680,
+          370,
+          0,
+          40
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1280,
+          0
+        ],
+        [
+          21,
+          11,
+          50,
+          337,
+          93,
+          0,
+          768
+        ]
+      ],
+      "held_out_physical_seed": 3102,
+      "macro_f1": 0.6458767120701229,
+      "parameter_count": 169287,
+      "per_class_recall": {
+        "imperfect_csi": 0.62109375,
+        "literal": 0.2890625,
+        "low_snr": 0.98984375,
+        "mismatch": 1.0,
+        "normal": 0.18828125,
+        "ood": 0.6,
+        "spatial_correlation": 0.91640625
+      },
+      "source": "new_subset_fold",
+      "stages": [
+        "R0",
+        "R2",
+        "R3"
+      ],
+      "subset": "R0_R2_R3",
+      "task_index": 41,
+      "test_records_sha256": "e061b2ee4b0f1e29e65439a939e0ebd961772ae47f2fa20363ac048305b0da67",
+      "test_samples": 8960,
+      "train_records_sha256": "7c7a13a2e508909e98ca66c3994adc27ddaee1090877c3ae7098ad33252bb62b",
+      "train_samples": 35840,
+      "training": {
+        "batch_size": 64,
+        "epochs": 12,
+        "learning_rate": 0.0003,
+        "seed": 5501,
+        "weight_decay": 0.0001
+      }
+    },
+    {
+      "architecture": "tcn_branchwise_subset",
+      "balanced_accuracy": 0.6952008928571428,
+      "coarse_balanced_accuracy": 0.6624131944444445,
+      "coarse_macro_f1": 0.6680826969376552,
+      "confusion_matrix": [
+        [
+          472,
+          0,
+          59,
+          596,
+          125,
+          0,
+          28
+        ],
+        [
+          11,
+          1219,
+          15,
+          32,
+          2,
+          0,
+          1
+        ],
+        [
+          119,
+          5,
+          834,
+          254,
+          50,
+          0,
+          18
+        ],
+        [
+          132,
+          2,
+          31,
+          1076,
+          32,
+          0,
+          7
+        ],
+        [
+          237,
+          0,
+          57,
+          512,
+          398,
+          0,
+          76
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1280,
+          0
+        ],
+        [
+          39,
+          0,
+          26,
+          222,
+          43,
+          0,
+          950
+        ]
+      ],
+      "held_out_physical_seed": 3103,
+      "macro_f1": 0.6955702914392902,
+      "parameter_count": 169287,
+      "per_class_recall": {
+        "imperfect_csi": 0.6515625,
+        "literal": 0.3109375,
+        "low_snr": 0.95234375,
+        "mismatch": 1.0,
+        "normal": 0.36875,
+        "ood": 0.7421875,
+        "spatial_correlation": 0.840625
+      },
+      "source": "new_subset_fold",
+      "stages": [
+        "R0",
+        "R2",
+        "R3"
+      ],
+      "subset": "R0_R2_R3",
+      "task_index": 42,
+      "test_records_sha256": "f2b3b7f9cadc8e826f58e45899b1b3a8022f17c6e5ea2b0a67f9cd9d2e8141e0",
+      "test_samples": 8960,
+      "train_records_sha256": "891c0b7bfb1bcfd7ec58ce6a1ab38a9aa8d41f77c45afa4a73d546fb61376942",
+      "train_samples": 35840,
+      "training": {
+        "batch_size": 64,
+        "epochs": 12,
+        "learning_rate": 0.0003,
+        "seed": 5501,
+        "weight_decay": 0.0001
+      }
+    },
+    {
+      "architecture": "tcn_branchwise_subset",
+      "balanced_accuracy": 0.7072544642857144,
+      "coarse_balanced_accuracy": 0.6651041666666667,
+      "coarse_macro_f1": 0.6705417483540234,
+      "confusion_matrix": [
+        [
+          442,
+          96,
+          92,
+          103,
+          394,
+          0,
+          153
+        ],
+        [
+          5,
+          1254,
+          6,
+          2,
+          8,
+          0,
+          5
+        ],
+        [
+          217,
+          71,
+          611,
+          22,
+          161,
+          0,
+          198
+        ],
+        [
+          130,
+          32,
+          51,
+          885,
+          120,
+          0,
+          62
+        ],
+        [
+          134,
+          65,
+          77,
+          58,
+          740,
+          0,
+          206
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1280,
+          0
+        ],
+        [
+          8,
+          27,
+          52,
+          17,
+          51,
+          0,
+          1125
+        ]
+      ],
+      "held_out_physical_seed": 3104,
+      "macro_f1": 0.696871343863057,
+      "parameter_count": 169287,
+      "per_class_recall": {
+        "imperfect_csi": 0.47734375,
+        "literal": 0.578125,
+        "low_snr": 0.9796875,
+        "mismatch": 1.0,
+        "normal": 0.3453125,
+        "ood": 0.87890625,
+        "spatial_correlation": 0.69140625
+      },
+      "source": "new_subset_fold",
+      "stages": [
+        "R0",
+        "R2",
+        "R3"
+      ],
+      "subset": "R0_R2_R3",
+      "task_index": 43,
+      "test_records_sha256": "f7c833a65158435e34b627f983bbee63afb253e0f5af1d9265cf4bac31044932",
+      "test_samples": 8960,
+      "train_records_sha256": "37fb03b999a1849c255412ead06c47f66a53f59a29d984383f0026e0a70a7bf4",
+      "train_samples": 35840,
+      "training": {
+        "batch_size": 64,
+        "epochs": 12,
+        "learning_rate": 0.0003,
+        "seed": 5501,
+        "weight_decay": 0.0001
+      }
+    },
+    {
+      "architecture": "tcn_branchwise_subset",
+      "balanced_accuracy": 0.72265625,
+      "coarse_balanced_accuracy": 0.6798611111111111,
+      "coarse_macro_f1": 0.6878042157620575,
+      "confusion_matrix": [
+        [
+          471,
+          122,
+          40,
+          39,
+          524,
+          0,
+          84
+        ],
+        [
+          0,
+          1274,
+          1,
+          0,
+          3,
+          0,
+          2
+        ],
+        [
+          105,
+          106,
+          715,
+          3,
+          251,
+          0,
+          100
+        ],
+        [
+          186,
+          41,
+          37,
+          728,
+          242,
+          0,
+          46
+        ],
+        [
+          123,
+          100,
+          20,
+          17,
+          884,
+          0,
+          136
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1280,
+          0
+        ],
+        [
+          12,
+          44,
+          7,
+          3,
+          91,
+          0,
+          1123
+        ]
+      ],
+      "held_out_physical_seed": 3105,
+      "macro_f1": 0.7180292191718485,
+      "parameter_count": 169287,
+      "per_class_recall": {
+        "imperfect_csi": 0.55859375,
+        "literal": 0.690625,
+        "low_snr": 0.9953125,
+        "mismatch": 1.0,
+        "normal": 0.36796875,
+        "ood": 0.87734375,
+        "spatial_correlation": 0.56875
+      },
+      "source": "new_subset_fold",
+      "stages": [
+        "R0",
+        "R2",
+        "R3"
+      ],
+      "subset": "R0_R2_R3",
+      "task_index": 44,
+      "test_records_sha256": "f1cd8d601a8f16a03040a9a56191765521c03e7bfd8d94653d33de0721b36467",
+      "test_samples": 8960,
+      "train_records_sha256": "bc27b9cc76fdf0355e52643771b474a4d61e89a516725ba9439ff92bfd2c8cd9",
+      "train_samples": 35840,
+      "training": {
+        "batch_size": 64,
+        "epochs": 12,
+        "learning_rate": 0.0003,
+        "seed": 5501,
+        "weight_decay": 0.0001
+      }
+    },
+    {
+      "architecture": "tcn_branchwise_subset",
+      "balanced_accuracy": 0.6597098214285715,
+      "coarse_balanced_accuracy": 0.7105034722222222,
+      "coarse_macro_f1": 0.6893994869437012,
+      "confusion_matrix": [
+        [
+          793,
+          31,
+          196,
+          50,
+          140,
+          0,
+          70
+        ],
+        [
+          104,
+          930,
+          174,
+          49,
+          13,
+          0,
+          10
+        ],
+        [
+          131,
+          44,
+          997,
+          2,
+          44,
+          0,
+          62
+        ],
+        [
+          498,
+          119,
+          142,
+          377,
+          85,
+          0,
+          59
+        ],
+        [
+          474,
+          18,
+          192,
+          39,
+          435,
+          0,
+          122
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1280,
+          0
+        ],
+        [
+          46,
+          1,
+          93,
+          5,
+          36,
+          0,
+          1099
+        ]
+      ],
+      "held_out_physical_seed": 3101,
+      "macro_f1": 0.6504276000671715,
+      "parameter_count": 170055,
+      "per_class_recall": {
+        "imperfect_csi": 0.77890625,
+        "literal": 0.33984375,
+        "low_snr": 0.7265625,
+        "mismatch": 1.0,
+        "normal": 0.61953125,
+        "ood": 0.85859375,
+        "spatial_correlation": 0.29453125
+      },
+      "source": "new_subset_fold",
+      "stages": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "subset": "R1_R2_R3",
+      "task_index": 45,
+      "test_records_sha256": "2a4eb31549265c77621a1d3ad002c36748881898a4bc9670e488baa4809dc731",
+      "test_samples": 8960,
+      "train_records_sha256": "f0bc9d8f38d6419d68fae9c9491454ada719d111eb3011f1d9a49480f1b4c177",
+      "train_samples": 35840,
+      "training": {
+        "batch_size": 64,
+        "epochs": 12,
+        "learning_rate": 0.0003,
+        "seed": 5501,
+        "weight_decay": 0.0001
+      }
+    },
+    {
+      "architecture": "tcn_branchwise_subset",
+      "balanced_accuracy": 0.6453125000000001,
+      "coarse_balanced_accuracy": 0.6142361111111111,
+      "coarse_macro_f1": 0.6194279885041442,
+      "confusion_matrix": [
+        [
+          297,
+          142,
+          109,
+          531,
+          165,
+          0,
+          36
+        ],
+        [
+          24,
+          1071,
+          11,
+          152,
+          16,
+          0,
+          6
+        ],
+        [
+          69,
+          81,
+          915,
+          146,
+          40,
+          0,
+          29
+        ],
+        [
+          106,
+          104,
+          61,
+          884,
+          98,
+          0,
+          27
+        ],
+        [
+          126,
+          93,
+          86,
+          471,
+          453,
+          0,
+          51
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          1279,
+          0
+        ],
+        [
+          22,
+          16,
+          47,
+          218,
+          94,
+          0,
+          883
+        ]
+      ],
+      "held_out_physical_seed": 3102,
+      "macro_f1": 0.6388840714297978,
+      "parameter_count": 170055,
+      "per_class_recall": {
+        "imperfect_csi": 0.71484375,
+        "literal": 0.35390625,
+        "low_snr": 0.83671875,
+        "mismatch": 0.99921875,
+        "normal": 0.23203125,
+        "ood": 0.68984375,
+        "spatial_correlation": 0.690625
+      },
+      "source": "new_subset_fold",
+      "stages": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "subset": "R1_R2_R3",
+      "task_index": 46,
+      "test_records_sha256": "e061b2ee4b0f1e29e65439a939e0ebd961772ae47f2fa20363ac048305b0da67",
+      "test_samples": 8960,
+      "train_records_sha256": "7c7a13a2e508909e98ca66c3994adc27ddaee1090877c3ae7098ad33252bb62b",
+      "train_samples": 35840,
+      "training": {
+        "batch_size": 64,
+        "epochs": 12,
+        "learning_rate": 0.0003,
+        "seed": 5501,
+        "weight_decay": 0.0001
+      }
+    },
+    {
+      "architecture": "tcn_branchwise_subset",
+      "balanced_accuracy": 0.6963169642857142,
+      "coarse_balanced_accuracy": 0.6933159722222223,
+      "coarse_macro_f1": 0.6959541723556423,
+      "confusion_matrix": [
+        [
+          556,
+          44,
+          130,
+          259,
+          241,
+          0,
+          50
+        ],
+        [
+          20,
+          1032,
+          31,
+          176,
+          15,
+          0,
+          6
+        ],
+        [
+          75,
+          17,
+          992,
+          97,
+          67,
+          0,
+          32
+        ],
+        [
+          242,
+          60,
+          68,
+          745,
+          129,
+          0,
+          36
+        ],
+        [
+          254,
+          27,
+          127,
+          178,
+          585,
+          0,
+          109
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1280,
+          0
+        ],
+        [
+          27,
+          1,
+          29,
+          96,
+          78,
+          0,
+          1049
+        ]
+      ],
+      "held_out_physical_seed": 3103,
+      "macro_f1": 0.6960361477588405,
+      "parameter_count": 170055,
+      "per_class_recall": {
+        "imperfect_csi": 0.775,
+        "literal": 0.45703125,
+        "low_snr": 0.80625,
+        "mismatch": 1.0,
+        "normal": 0.434375,
+        "ood": 0.81953125,
+        "spatial_correlation": 0.58203125
+      },
+      "source": "new_subset_fold",
+      "stages": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "subset": "R1_R2_R3",
+      "task_index": 47,
+      "test_records_sha256": "f2b3b7f9cadc8e826f58e45899b1b3a8022f17c6e5ea2b0a67f9cd9d2e8141e0",
+      "test_samples": 8960,
+      "train_records_sha256": "891c0b7bfb1bcfd7ec58ce6a1ab38a9aa8d41f77c45afa4a73d546fb61376942",
+      "train_samples": 35840,
+      "training": {
+        "batch_size": 64,
+        "epochs": 12,
+        "learning_rate": 0.0003,
+        "seed": 5501,
+        "weight_decay": 0.0001
+      }
+    },
+    {
+      "architecture": "tcn_branchwise_subset",
+      "balanced_accuracy": 0.5900669642857144,
+      "coarse_balanced_accuracy": 0.6077256944444445,
+      "coarse_macro_f1": 0.6077117907822402,
+      "confusion_matrix": [
+        [
+          367,
+          105,
+          123,
+          99,
+          426,
+          0,
+          160
+        ],
+        [
+          122,
+          684,
+          92,
+          262,
+          101,
+          0,
+          19
+        ],
+        [
+          150,
+          112,
+          656,
+          35,
+          143,
+          1,
+          183
+        ],
+        [
+          220,
+          121,
+          79,
+          418,
+          297,
+          0,
+          145
+        ],
+        [
+          111,
+          96,
+          67,
+          36,
+          767,
+          0,
+          203
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1280,
+          0
+        ],
+        [
+          9,
+          49,
+          25,
+          6,
+          76,
+          0,
+          1115
+        ]
+      ],
+      "held_out_physical_seed": 3104,
+      "macro_f1": 0.5792337801286725,
+      "parameter_count": 170055,
+      "per_class_recall": {
+        "imperfect_csi": 0.5125,
+        "literal": 0.59921875,
+        "low_snr": 0.534375,
+        "mismatch": 1.0,
+        "normal": 0.28671875,
+        "ood": 0.87109375,
+        "spatial_correlation": 0.3265625
+      },
+      "source": "new_subset_fold",
+      "stages": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "subset": "R1_R2_R3",
+      "task_index": 48,
+      "test_records_sha256": "f7c833a65158435e34b627f983bbee63afb253e0f5af1d9265cf4bac31044932",
+      "test_samples": 8960,
+      "train_records_sha256": "37fb03b999a1849c255412ead06c47f66a53f59a29d984383f0026e0a70a7bf4",
+      "train_samples": 35840,
+      "training": {
+        "batch_size": 64,
+        "epochs": 12,
+        "learning_rate": 0.0003,
+        "seed": 5501,
+        "weight_decay": 0.0001
+      }
+    },
+    {
+      "architecture": "tcn_branchwise_subset",
+      "balanced_accuracy": 0.6491071428571429,
+      "coarse_balanced_accuracy": 0.6436631944444444,
+      "coarse_macro_f1": 0.6447441568443896,
+      "confusion_matrix": [
+        [
+          455,
+          99,
+          23,
+          63,
+          571,
+          0,
+          69
+        ],
+        [
+          76,
+          985,
+          14,
+          86,
+          107,
+          0,
+          12
+        ],
+        [
+          93,
+          121,
+          694,
+          45,
+          250,
+          0,
+          77
+        ],
+        [
+          302,
+          167,
+          26,
+          345,
+          386,
+          0,
+          54
+        ],
+        [
+          127,
+          73,
+          8,
+          34,
+          928,
+          0,
+          110
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1280,
+          0
+        ],
+        [
+          14,
+          8,
+          4,
+          5,
+          120,
+          0,
+          1129
+        ]
+      ],
+      "held_out_physical_seed": 3105,
+      "macro_f1": 0.6419618248363455,
+      "parameter_count": 170055,
+      "per_class_recall": {
+        "imperfect_csi": 0.5421875,
+        "literal": 0.725,
+        "low_snr": 0.76953125,
+        "mismatch": 1.0,
+        "normal": 0.35546875,
+        "ood": 0.88203125,
+        "spatial_correlation": 0.26953125
+      },
+      "source": "new_subset_fold",
+      "stages": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "subset": "R1_R2_R3",
+      "task_index": 49,
+      "test_records_sha256": "f1cd8d601a8f16a03040a9a56191765521c03e7bfd8d94653d33de0721b36467",
+      "test_samples": 8960,
+      "train_records_sha256": "bc27b9cc76fdf0355e52643771b474a4d61e89a516725ba9439ff92bfd2c8cd9",
+      "train_samples": 35840,
+      "training": {
+        "batch_size": 64,
+        "epochs": 12,
+        "learning_rate": 0.0003,
+        "seed": 5501,
+        "weight_decay": 0.0001
+      }
+    },
+    {
+      "architecture": "tcn_branchwise_subset",
+      "balanced_accuracy": 0.7175223214285714,
+      "coarse_balanced_accuracy": 0.7024305555555554,
+      "coarse_macro_f1": 0.6998222457876855,
+      "confusion_matrix": [
+        [
+          646,
+          20,
+          234,
+          193,
+          125,
+          0,
+          62
+        ],
+        [
+          13,
+          1242,
+          19,
+          3,
+          1,
+          0,
+          2
+        ],
+        [
+          109,
+          8,
+          1005,
+          77,
+          27,
+          0,
+          54
+        ],
+        [
+          220,
+          1,
+          108,
+          878,
+          54,
+          0,
+          19
+        ],
+        [
+          337,
+          15,
+          241,
+          179,
+          393,
+          0,
+          115
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1280,
+          0
+        ],
+        [
+          43,
+          2,
+          138,
+          72,
+          40,
+          0,
+          985
+        ]
+      ],
+      "held_out_physical_seed": 3101,
+      "macro_f1": 0.7094937143720718,
+      "parameter_count": 221191,
+      "per_class_recall": {
+        "imperfect_csi": 0.78515625,
+        "literal": 0.30703125,
+        "low_snr": 0.9703125,
+        "mismatch": 1.0,
+        "normal": 0.5046875,
+        "ood": 0.76953125,
+        "spatial_correlation": 0.6859375
+      },
+      "source": "new_subset_fold",
+      "stages": [
+        "R0",
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "subset": "R0_R1_R2_R3",
+      "task_index": 50,
+      "test_records_sha256": "2a4eb31549265c77621a1d3ad002c36748881898a4bc9670e488baa4809dc731",
+      "test_samples": 8960,
+      "train_records_sha256": "f0bc9d8f38d6419d68fae9c9491454ada719d111eb3011f1d9a49480f1b4c177",
+      "train_samples": 35840,
+      "training": {
+        "batch_size": 64,
+        "epochs": 12,
+        "learning_rate": 0.0003,
+        "seed": 5501,
+        "weight_decay": 0.0001
+      }
+    },
+    {
+      "architecture": "tcn_branchwise_subset",
+      "balanced_accuracy": 0.6703125,
+      "coarse_balanced_accuracy": 0.6107638888888888,
+      "coarse_macro_f1": 0.6138427745565975,
+      "confusion_matrix": [
+        [
+          242,
+          36,
+          145,
+          656,
+          159,
+          0,
+          42
+        ],
+        [
+          10,
+          1260,
+          4,
+          0,
+          5,
+          0,
+          1
+        ],
+        [
+          32,
+          56,
+          852,
+          272,
+          43,
+          0,
+          25
+        ],
+        [
+          38,
+          33,
+          55,
+          1115,
+          31,
+          0,
+          8
+        ],
+        [
+          91,
+          25,
+          141,
+          568,
+          398,
+          0,
+          57
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1280,
+          0
+        ],
+        [
+          9,
+          7,
+          117,
+          219,
+          69,
+          0,
+          859
+        ]
+      ],
+      "held_out_physical_seed": 3102,
+      "macro_f1": 0.6536274279148439,
+      "parameter_count": 221191,
+      "per_class_recall": {
+        "imperfect_csi": 0.665625,
+        "literal": 0.3109375,
+        "low_snr": 0.984375,
+        "mismatch": 1.0,
+        "normal": 0.1890625,
+        "ood": 0.67109375,
+        "spatial_correlation": 0.87109375
+      },
+      "source": "new_subset_fold",
+      "stages": [
+        "R0",
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "subset": "R0_R1_R2_R3",
+      "task_index": 51,
+      "test_records_sha256": "e061b2ee4b0f1e29e65439a939e0ebd961772ae47f2fa20363ac048305b0da67",
+      "test_samples": 8960,
+      "train_records_sha256": "7c7a13a2e508909e98ca66c3994adc27ddaee1090877c3ae7098ad33252bb62b",
+      "train_samples": 35840,
+      "training": {
+        "batch_size": 64,
+        "epochs": 12,
+        "learning_rate": 0.0003,
+        "seed": 5501,
+        "weight_decay": 0.0001
+      }
+    },
+    {
+      "architecture": "tcn_branchwise_subset",
+      "balanced_accuracy": 0.7131696428571429,
+      "coarse_balanced_accuracy": 0.6614583333333334,
+      "coarse_macro_f1": 0.6704963343053209,
+      "confusion_matrix": [
+        [
+          384,
+          0,
+          193,
+          456,
+          218,
+          0,
+          29
+        ],
+        [
+          6,
+          1233,
+          23,
+          16,
+          2,
+          0,
+          0
+        ],
+        [
+          41,
+          2,
+          986,
+          184,
+          50,
+          0,
+          17
+        ],
+        [
+          81,
+          4,
+          93,
+          1041,
+          55,
+          0,
+          6
+        ],
+        [
+          165,
+          0,
+          165,
+          354,
+          544,
+          0,
+          52
+        ],
+        [
+          0,
+          0,
+          0,
+          6,
+          0,
+          1274,
+          0
+        ],
+        [
+          20,
+          0,
+          73,
+          171,
+          88,
+          0,
+          928
+        ]
+      ],
+      "held_out_physical_seed": 3103,
+      "macro_f1": 0.7069633365459592,
+      "parameter_count": 221191,
+      "per_class_recall": {
+        "imperfect_csi": 0.7703125,
+        "literal": 0.425,
+        "low_snr": 0.96328125,
+        "mismatch": 0.9953125,
+        "normal": 0.3,
+        "ood": 0.725,
+        "spatial_correlation": 0.81328125
+      },
+      "source": "new_subset_fold",
+      "stages": [
+        "R0",
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "subset": "R0_R1_R2_R3",
+      "task_index": 52,
+      "test_records_sha256": "f2b3b7f9cadc8e826f58e45899b1b3a8022f17c6e5ea2b0a67f9cd9d2e8141e0",
+      "test_samples": 8960,
+      "train_records_sha256": "891c0b7bfb1bcfd7ec58ce6a1ab38a9aa8d41f77c45afa4a73d546fb61376942",
+      "train_samples": 35840,
+      "training": {
+        "batch_size": 64,
+        "epochs": 12,
+        "learning_rate": 0.0003,
+        "seed": 5501,
+        "weight_decay": 0.0001
+      }
+    },
+    {
+      "architecture": "tcn_branchwise_subset",
+      "balanced_accuracy": 0.6939732142857142,
+      "coarse_balanced_accuracy": 0.658767361111111,
+      "coarse_macro_f1": 0.6652940786179049,
+      "confusion_matrix": [
+        [
+          434,
+          147,
+          146,
+          45,
+          390,
+          0,
+          118
+        ],
+        [
+          0,
+          1268,
+          5,
+          5,
+          1,
+          0,
+          1
+        ],
+        [
+          181,
+          98,
+          620,
+          11,
+          147,
+          0,
+          223
+        ],
+        [
+          151,
+          40,
+          108,
+          824,
+          120,
+          0,
+          37
+        ],
+        [
+          112,
+          103,
+          128,
+          19,
+          754,
+          0,
+          164
+        ],
+        [
+          0,
+          13,
+          0,
+          0,
+          0,
+          1267,
+          0
+        ],
+        [
+          12,
+          40,
+          103,
+          2,
+          72,
+          0,
+          1051
+        ]
+      ],
+      "held_out_physical_seed": 3104,
+      "macro_f1": 0.6847182886945087,
+      "parameter_count": 221191,
+      "per_class_recall": {
+        "imperfect_csi": 0.484375,
+        "literal": 0.5890625,
+        "low_snr": 0.990625,
+        "mismatch": 0.98984375,
+        "normal": 0.3390625,
+        "ood": 0.82109375,
+        "spatial_correlation": 0.64375
+      },
+      "source": "new_subset_fold",
+      "stages": [
+        "R0",
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "subset": "R0_R1_R2_R3",
+      "task_index": 53,
+      "test_records_sha256": "f7c833a65158435e34b627f983bbee63afb253e0f5af1d9265cf4bac31044932",
+      "test_samples": 8960,
+      "train_records_sha256": "37fb03b999a1849c255412ead06c47f66a53f59a29d984383f0026e0a70a7bf4",
+      "train_samples": 35840,
+      "training": {
+        "batch_size": 64,
+        "epochs": 12,
+        "learning_rate": 0.0003,
+        "seed": 5501,
+        "weight_decay": 0.0001
+      }
+    },
+    {
+      "architecture": "tcn_branchwise_subset",
+      "balanced_accuracy": 0.7256696428571429,
+      "coarse_balanced_accuracy": 0.6870659722222223,
+      "coarse_macro_f1": 0.6937167852181642,
+      "confusion_matrix": [
+        [
+          496,
+          112,
+          61,
+          34,
+          518,
+          0,
+          59
+        ],
+        [
+          0,
+          1275,
+          2,
+          0,
+          2,
+          0,
+          1
+        ],
+        [
+          113,
+          89,
+          756,
+          24,
+          227,
+          0,
+          71
+        ],
+        [
+          205,
+          27,
+          47,
+          724,
+          249,
+          0,
+          28
+        ],
+        [
+          138,
+          84,
+          49,
+          18,
+          894,
+          0,
+          97
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1280,
+          0
+        ],
+        [
+          19,
+          29,
+          18,
+          2,
+          135,
+          0,
+          1077
+        ]
+      ],
+      "held_out_physical_seed": 3105,
+      "macro_f1": 0.7236109644427549,
+      "parameter_count": 221191,
+      "per_class_recall": {
+        "imperfect_csi": 0.590625,
+        "literal": 0.6984375,
+        "low_snr": 0.99609375,
+        "mismatch": 1.0,
+        "normal": 0.3875,
+        "ood": 0.84140625,
+        "spatial_correlation": 0.565625
+      },
+      "source": "new_subset_fold",
+      "stages": [
+        "R0",
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "subset": "R0_R1_R2_R3",
+      "task_index": 54,
+      "test_records_sha256": "f1cd8d601a8f16a03040a9a56191765521c03e7bfd8d94653d33de0721b36467",
+      "test_samples": 8960,
+      "train_records_sha256": "bc27b9cc76fdf0355e52643771b474a4d61e89a516725ba9439ff92bfd2c8cd9",
+      "train_samples": 35840,
+      "training": {
+        "batch_size": 64,
+        "epochs": 12,
+        "learning_rate": 0.0003,
+        "seed": 5501,
+        "weight_decay": 0.0001
+      }
+    }
+  ],
+  "holdout_used": false,
+  "physical_seeds": [
+    3101,
+    3102,
+    3103,
+    3104,
+    3105
+  ],
+  "receiver_stages": [
+    "R0",
+    "R1",
+    "R2",
+    "R3"
+  ],
+  "status": "complete",
+  "training": {
+    "batch_size": 64,
+    "epochs": 12,
+    "learning_rate": 0.0003,
+    "seed": 5501,
+    "weight_decay": 0.0001
+  }
+}

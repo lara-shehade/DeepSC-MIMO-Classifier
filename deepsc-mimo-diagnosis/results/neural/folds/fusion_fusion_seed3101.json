@@ -1,0 +1,85 @@
+{
+  "architecture": "fusion",
+  "stage": "fusion",
+  "held_out_physical_seed": 3101,
+  "train_samples": 35840,
+  "test_samples": 8960,
+  "balanced_accuracy": 0.7117187500000001,
+  "macro_f1": 0.702229164357067,
+  "per_class_recall": {
+    "normal": 0.37734375,
+    "low_snr": 0.9578125,
+    "imperfect_csi": 0.7171875,
+    "spatial_correlation": 0.740625,
+    "literal": 0.3609375,
+    "mismatch": 1.0,
+    "ood": 0.828125
+  },
+  "confusion_matrix": [
+    [
+      483,
+      37,
+      234,
+      289,
+      181,
+      0,
+      56
+    ],
+    [
+      11,
+      1226,
+      38,
+      2,
+      2,
+      0,
+      1
+    ],
+    [
+      107,
+      17,
+      918,
+      115,
+      57,
+      0,
+      66
+    ],
+    [
+      164,
+      3,
+      76,
+      948,
+      60,
+      0,
+      29
+    ],
+    [
+      244,
+      19,
+      210,
+      225,
+      462,
+      0,
+      120
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1280,
+      0
+    ],
+    [
+      26,
+      4,
+      103,
+      41,
+      46,
+      0,
+      1060
+    ]
+  ],
+  "coarse_balanced_accuracy": 0.6736111111111112,
+  "coarse_macro_f1": 0.6787025980179284
+}

@@ -1,0 +1,2 @@
+utc_time	old_sha256	new_sha256	reason
+2026-09-28T13:50:11Z	0503af035930aa55029da626b868932ad6a817336ef703ced0653adb230fe31b	c64be3586cf51a25c0e04587d282b29edc4fb60e3065eff3d5de39706fea8617	CPU RNG ByteTensor restoration for resumed GPU training

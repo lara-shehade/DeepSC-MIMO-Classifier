@@ -1,0 +1,102 @@
+{
+  "status": "evaluated_after_freeze",
+  "holdout": "arxiv",
+  "samples": 3840,
+  "classical_ood_recall": 0.3341145833333333,
+  "classical_prediction_counts": {
+    "normal": 39,
+    "low_snr": 0,
+    "imperfect_csi": 37,
+    "spatial_correlation": 39,
+    "literal": 2442,
+    "mismatch": 0,
+    "ood": 1283
+  },
+  "neural": {
+    "balanced_accuracy": 0.5296875,
+    "macro_f1": 0.11542390194075586,
+    "per_class_recall": {
+      "normal": 0.0,
+      "low_snr": 0.0,
+      "imperfect_csi": 0.0,
+      "spatial_correlation": 0.0,
+      "literal": 0.0,
+      "mismatch": 0.0,
+      "ood": 0.5296875
+    },
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        152,
+        1,
+        58,
+        37,
+        1558,
+        0,
+        2034
+      ]
+    ],
+    "coarse_balanced_accuracy": 0.9354166666666667,
+    "coarse_macro_f1": 0.3222102619303911
+  },
+  "neural_selection": {
+    "architecture": "fusion",
+    "stage": "fusion",
+    "macro_f1_mean": 0.6956061632232888,
+    "balanced_accuracy_mean": 0.7032142857142857,
+    "folds": 5
+  }
+}
