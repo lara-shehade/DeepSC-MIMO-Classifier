@@ -43,4 +43,4 @@ Outputs go to `./verify_out` (or `$OUT`). Each comparison ends with **PASS** or 
 - **Neural fold:** it should match within about 0.02, because the original folds were trained on a V100 GPU and this check trains on CPU.
 - **Memory:** the classical step loads the whole feature table, so plan for about 16 GB of RAM. The original cluster job requested 32 GB.
 
-`requirements.txt` gives minimum versions. For the closest match, use the versions from the cluster run: Python 3, PyTorch, NumPy and scikit-learn as loaded by `module load python/ai-4`.
+`requirements.txt` gives minimum versions. The cluster run used Python 3.10.13 and PyTorch 2.1.2 (`module load python/ai-4`).

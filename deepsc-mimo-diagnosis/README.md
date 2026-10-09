@@ -43,7 +43,7 @@ A file-by-file explanation of the code is in [`docs/DeepSC_MIMO_Implementation_R
 
 ## Installation
 
-Python ≥ 3.9. The paper's run used Python 3.10.13, PyTorch 2.1.2 and CUDA 12.1 on a V100 32 GB, as recorded in the run's preflight report.
+Python 3.10. The paper's run used Python 3.10.13, PyTorch 2.1.2 and CUDA 12.1 on a V100 32 GB, as recorded in the run's preflight report.
 
 ```bash
 pip install -r requirements.txt
@@ -57,7 +57,7 @@ python -m tests.integration_smoke     # synthetic train → collect → extract
 python -m tests.classical_smoke       # synthetic classical diagnostics
 ```
 
-## Reproducing the paper's attribution and CSI numbers from `results/` (no data needed)
+## Numbers that can be recomputed without data
 
 ```bash
 # Shapley values, interaction indices and Kendall's W (Section IV)
@@ -176,4 +176,5 @@ Repository-only additions, not part of the run:
 - this README and `.gitignore`;
 - `verify/`;
 - `provenance/check_hashes.py`;
-- `experiments/correction/launch.sh`.
+- `experiments/correction/launch.sh`;
+- `experiments/paper_extraction/launch.sh` (rebuilt from the original submit script; it regenerates the same job scripts).

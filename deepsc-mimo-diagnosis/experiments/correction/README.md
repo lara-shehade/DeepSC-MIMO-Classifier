@@ -6,7 +6,7 @@ From the repository root, point it at a finished pipeline run and run:
 
 ```bash
 export RUN_ROOT=/path/to/runs/<run_id>        # contains traces/, checkpoints/, code/
-export DEEPSC_SHARED_ROOT=/path/to/adv_datasets
+export DEEPSC_SHARED_ROOT="$(cd ../adv_datasets && pwd -P)"
 bash experiments/correction/launch.sh
 ```
 
@@ -35,7 +35,7 @@ Inputs (read only):
   - `make_dd.py` builds the D→D targets from the stored channel and noise of each batch.
 - `jobs/` holds the four job scripts that ran, with paths replaced by `${RUN_ROOT}` and `${DEEPSC_SHARED_ROOT}`.
 - `summarize_pooled.py` is an offline re-summary of the stored fold files. It pools counts across folds instead of averaging per-fold ratios, and it gives the numbers in the paper:
-  `python summarize_pooled.py --output <folder with folds/>`
+  `python experiments/correction/summarize_pooled.py --output <copy of results/correction>` (it writes `summary.md` into that folder)
 
 ## What is measured
 
